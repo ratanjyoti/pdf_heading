@@ -1,0 +1,200 @@
+[
+  {
+    "text": "Parsippany -Troy Hills STEM Pathways",
+    "bbox": {
+      "x0": 125.8207015991211,
+      "y0": 37.369590759277344,
+      "x1": 562.1452026367188,
+      "y1": 65.37680053710938
+    },
+    "page_number": 1,
+    "page_width": 612.0,
+    "page_height": 792.0,
+    "font_size": 28.00721549987793,
+    "font_name": "Calibri-Bold",
+    "is_bold": true,
+    "is_italic": false,
+    "word_count": 5,
+    "line_count": 1,
+    "is_in_table": false,
+    "column": 2,
+    "vertical_space_after": 23.317405700683594,
+    "vertical_space_before": 100
+  },
+  {
+    "text": "Mission Statement: To provide PTHSD high school students with the opportunity to concentrate their studies, beyond those required in high school, in the areas of science, technology, engineering, and mathematics, and expose students to relevant real world experiences through project work, conferences and presentations to enhance their high school experience.",
+    "bbox": {
+      "x0": 80.32749938964844,
+      "y0": 88.69420623779297,
+      "x1": 543.8029174804688,
+      "y1": 163.51829528808594
+    },
+    "page_number": 1,
+    "page_width": 612.0,
+    "page_height": 792.0,
+    "font_size": 12.004799842834473,
+    "font_name": "Calibri",
+    "is_bold": false,
+    "is_italic": false,
+    "word_count": 50,
+    "line_count": 5,
+    "is_in_table": true,
+    "column": 2,
+    "vertical_space_after": 19.119964599609375,
+    "vertical_space_before": 23.317405700683594
+  },
+  {
+    "text": "Goals:",
+    "bbox": {
+      "x0": 45.41230010986328,
+      "y0": 182.6382598876953,
+      "x1": 82.10828399658203,
+      "y1": 200.08251953125
+    },
+    "page_number": 1,
+    "page_width": 612.0,
+    "page_height": 792.0,
+    "font_size": 14.011449813842773,
+    "font_name": "Sniglet-Regular",
+    "is_bold": false,
+    "is_italic": false,
+    "word_count": 1,
+    "line_count": 1,
+    "is_in_table": true,
+    "column": 1,
+    "vertical_space_after": 10.88629150390625,
+    "vertical_space_before": 19.119964599609375
+  },
+  {
+    "text": "\u2022 Inspire keen interest in mathematics, science, engineering, and technology, develop strong scholarship in the subject and promote the enjoyment of these studies in high school.",
+    "bbox": {
+      "x0": 41.384498596191406,
+      "y0": 210.96881103515625,
+      "x1": 341.39996337890625,
+      "y1": 249.7999725341797
+    },
+    "page_number": 1,
+    "page_width": 612.0,
+    "page_height": 792.0,
+    "font_size": 11.508949279785156,
+    "font_name": "Calibri",
+    "is_bold": false,
+    "is_italic": false,
+    "word_count": 26,
+    "line_count": 3,
+    "is_in_table": true,
+    "column": 1,
+    "vertical_space_after": 1.6992950439453125,
+    "vertical_space_before": 10.88629150390625
+  },
+  {
+    "text": "\u2022 Expose students to potential career opportunities in the field. \u2022 Encourage students to pursue higher education and major in STEM careers. \u2022 Promote interactions with STEM professionals to learn about future opportunities. \u2022 Support field experiences connected to the world outside of the school building. \u2022 Signal to employers, universities, training programs, and military that a student has completed a comprehensive course of study in a specialized area. \u2022 Cultivate transferable work habits such as perseverance, goal setting, and self-direction.",
+    "bbox": {
+      "x0": 39.682037353515625,
+      "y0": 251.499267578125,
+      "x1": 338.53399658203125,
+      "y1": 411.9276428222656
+    },
+    "page_number": 1,
+    "page_width": 612.0,
+    "page_height": 792.0,
+    "font_size": 11.508949279785156,
+    "font_name": "Calibri",
+    "is_bold": false,
+    "is_italic": false,
+    "word_count": 81,
+    "line_count": 12,
+    "is_in_table": true,
+    "column": 1,
+    "vertical_space_after": 26.24774169921875,
+    "vertical_space_before": 1.6992950439453125
+  },
+  {
+    "text": "PATHWAY OPTIONS",
+    "bbox": {
+      "x0": 240.17869567871094,
+      "y0": 438.1753845214844,
+      "x1": 365.1392517089844,
+      "y1": 457.23406982421875
+    },
+    "page_number": 1,
+    "page_width": 612.0,
+    "page_height": 792.0,
+    "font_size": 15.308159828186035,
+    "font_name": "Sniglet-Regular",
+    "is_bold": false,
+    "is_italic": false,
+    "word_count": 2,
+    "line_count": 1,
+    "is_in_table": true,
+    "column": 1,
+    "vertical_space_after": 10.5205078125,
+    "vertical_space_before": 26.24774169921875
+  },
+  {
+    "text": "REGULAR PATHWAY",
+    "bbox": {
+      "x0": 117.1802978515625,
+      "y0": 467.75457763671875,
+      "x1": 242.09622192382812,
+      "y1": 483.06475830078125
+    },
+    "page_number": 1,
+    "page_width": 612.0,
+    "page_height": 792.0,
+    "font_size": 15.310199737548828,
+    "font_name": "Calibri-Bold",
+    "is_bold": true,
+    "is_italic": false,
+    "word_count": 2,
+    "line_count": 1,
+    "is_in_table": true,
+    "column": 1,
+    "vertical_space_after": -15.3101806640625,
+    "vertical_space_before": 10.5205078125
+  },
+  {
+    "text": "DISTINCTION PATHWAY \u25cf 4 credits of Math - At least one math course should be an AP Math class. \u25cf 4 credits of Science- At least one science course should be an AP Science class. \u25cf 4 credits of STEM-designated electives - One must be a Computer Science/Technology Class \u25cf Maintain an overall 3.5 GPA \u25cf Participate in a minimum of 3 STEM presentations/conferences a year with a required minimum total of 12 presentations/conferences throughout the 4 years. \u25cf Join and actively participate in a STEM-related extracurricular activity or club every year of attendance. \u25cf Either participate in an internship or design and implement a community impact project.",
+    "bbox": {
+      "x0": 320.7744140625,
+      "y0": 467.75457763671875,
+      "x1": 542.9417114257812,
+      "y1": 752.2532958984375
+    },
+    "page_number": 1,
+    "page_width": 612.0,
+    "page_height": 792.0,
+    "font_size": 11.007583618164062,
+    "font_name": "ArialMT",
+    "is_bold": false,
+    "is_italic": false,
+    "word_count": 108,
+    "line_count": 28,
+    "is_in_table": true,
+    "column": 2,
+    "vertical_space_after": -249.66729736328125,
+    "vertical_space_before": -15.3101806640625
+  },
+  {
+    "text": "\u25cf 4 credits of Math \u25cf 4 credits of Science \u25cf 4 credits of STEM-designated electives \u25cf Maintain an overall 2.85 GPA \u25cf Participate in a minimum of 3 STEM presentations/conferences each year with a required minimum total of 12 presentations/conferences throughout the 4 years . * \u25cf Join and actively participate in a STEM-related extracurricular activity or club every year of attendance. -",
+    "bbox": {
+      "x0": 74.78157043457031,
+      "y0": 502.58599853515625,
+      "x1": 292.5996398925781,
+      "y1": 662.1925659179688
+    },
+    "page_number": 1,
+    "page_width": 612.0,
+    "page_height": 792.0,
+    "font_size": 11.007583618164062,
+    "font_name": "ArialMT",
+    "is_bold": false,
+    "is_italic": false,
+    "word_count": 64,
+    "line_count": 18,
+    "is_in_table": true,
+    "column": 1,
+    "vertical_space_after": 100,
+    "vertical_space_before": -249.66729736328125
+  }
+]

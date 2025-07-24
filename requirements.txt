@@ -1,0 +1,6 @@
+# Filename: requirements.txt
+pymupdf
+numpy
+scikit-learn
+xgboost
+joblib
