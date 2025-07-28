@@ -1,23 +1,23 @@
-# Filename: utils/feature_extractor.py (FINAL MULTILINGUAL UPGRADE)
-# This is the correct version you were given previously. No changes needed from that version.
+# Filename: utils/feature_extractor_lite.py (SPEED-FOCUSED VERSION)
+
 import re
 import numpy as np
 from typing import List, Dict, Any, Tuple
-from sentence_transformers import SentenceTransformer
 
-class FeatureExtractor:
+class FeatureExtractorLite:
     def __init__(self):
-        print("Initializing feature extractor and loading multilingual sentence model...")
-        self.embedding_model = SentenceTransformer('distiluse-base-multilingual-cased-v2')
-        print("Sentence model loaded.")
-        embedding_feature_names = [f'embed_{i}' for i in range(384)]
+        """
+        A lightweight feature extractor that does NOT use heavy sentence transformer models.
+        It relies on fast-to-compute typographical, positional, and simple content features.
+        """
+        # ## MODIFIED ##: Removed all embedding features.
         self.feature_names = [
             'font_size', 'is_bold', 'is_italic', 'relative_font_size', 'font_name_id', 'bold_x_rel_size',
             'line_width_ratio', 'y_position_normalized', 'x_position_normalized', 'is_centered',
             'is_in_table', 'column', 'space_before_ratio', 'space_after_ratio',
             'line_count', 'char_count', 'ends_with_punct', 'language_id',
             'last_heading_level', 'distance_from_last_heading', 'font_size_vs_last_heading'
-        ] + embedding_feature_names
+        ]
 
     def _get_font_mapping(self, all_blocks: List[Dict[str, Any]]) -> Dict[str, int]:
         unique_fonts = sorted(list(set(b.get('font_name', 'default') for b in all_blocks)))
@@ -29,15 +29,17 @@ class FeatureExtractor:
 
     def extract_features(self, all_blocks: List[Dict[str, Any]]) -> Tuple[np.ndarray, Dict[str, int]]:
         if not all_blocks: return np.array([]), {}
-        print("Generating semantic embeddings for all text blocks...")
-        all_texts = [b.get('text', '') for b in all_blocks]
-        all_embeddings = self.embedding_model.encode(all_texts, show_progress_bar=True, batch_size=128)
+        
+        # No more slow embedding generation!
+        
         doc_font_sizes = [b.get('font_size', 0) for b in all_blocks if b.get('font_size', 0) > 6]
         median_font = np.median(doc_font_sizes) if doc_font_sizes else 12.0
         font_map = self._get_font_mapping(all_blocks)
         lang_map = self._get_language_mapping(all_blocks)
+        
         heading_context = []
         last_heading_info = {'index': -1, 'level': 0, 'font_size': median_font}
+        
         for i, block in enumerate(all_blocks):
             heading_context.append(last_heading_info.copy())
             label = block.get('label', 'NONE')
@@ -46,14 +48,16 @@ class FeatureExtractor:
                     level = int(label[1:])
                     last_heading_info = { 'index': i, 'level': level, 'font_size': block.get('font_size', median_font) }
                 except (ValueError, IndexError): pass
-        print("Assembling final feature matrix...")
+        
         features_matrix = [
-            self._get_block_features(block, i, median_font, font_map, lang_map, heading_context[i], all_embeddings[i])
+            self._get_block_features(block, i, median_font, font_map, lang_map, heading_context[i])
             for i, block in enumerate(all_blocks)
         ]
+        
+        # The returned lang_map isn't strictly needed for the bundle, but we keep it here.
         return np.array(features_matrix, dtype=np.float32), font_map
 
-    def _get_block_features(self, block: Dict[str, Any], index: int, median_font: float, font_map: Dict[str, int], lang_map: Dict[str, int], context: Dict, embedding: np.ndarray) -> List[float]:
+    def _get_block_features(self, block: Dict[str, Any], index: int, median_font: float, font_map: Dict[str, int], lang_map: Dict[str, int], context: Dict) -> List[float]:
         text = block.get('text', '')
         font_size = block.get('font_size', 0)
         is_bold = float(block.get('is_bold', False))
@@ -68,6 +72,8 @@ class FeatureExtractor:
         font_size_vs_last_heading = font_size / last_heading_font_size if last_heading_font_size > 0 else 1.0
         language_code = block.get('language', 'unknown')
         language_id = float(lang_map.get(language_code, -1.0))
+
+        # This feature list contains NO slow embedding features.
         manual_features = [
             font_size, is_bold, is_italic, relative_size, float(font_map.get(font_name, -1)), is_bold * relative_size,
             (bbox['x1'] - bbox['x0']) / page_width if page_width > 0 else 0,
@@ -81,4 +87,5 @@ class FeatureExtractor:
             float(text.strip().endswith((':', '.', '。', '：', '!', '?'))), language_id,
             last_heading_level, distance_from_last_heading, font_size_vs_last_heading
         ]
-        return manual_features + embedding.tolist()
+        
+        return manual_features

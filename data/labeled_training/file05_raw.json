@@ -10,7 +10,7 @@
     "page_number": 1,
     "page_width": 326.0400085449219,
     "page_height": 686.0399780273438,
-    "font_size": 12.401399612426758,
+    "font_size": 12.4,
     "font_name": "Helvetica",
     "is_bold": false,
     "is_italic": false,
@@ -19,7 +19,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": -2.87847900390625,
-    "vertical_space_before": 100
+    "vertical_space_before": 100,
+    "label": "NONE",
+    "language": "hu"
   },
   {
     "text": "TOPJUMP 3735 PARKWAY PIGEON FORGE, TN 37863 (NEAR DIXIE STAMPEDE ON THE PARKWAY)",
@@ -32,7 +34,7 @@
     "page_number": 1,
     "page_width": 326.0400085449219,
     "page_height": 686.0399780273438,
-    "font_size": 12.401350021362305,
+    "font_size": 12.4,
     "font_name": "Helvetica",
     "is_bold": false,
     "is_italic": false,
@@ -41,7 +43,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 9.61370849609375,
-    "vertical_space_before": -2.87847900390625
+    "vertical_space_before": -2.87847900390625,
+    "label": "NONE",
+    "language": "vi"
   },
   {
     "text": "RSVP: ----------------",
@@ -54,7 +58,7 @@
     "page_number": 1,
     "page_width": 326.0400085449219,
     "page_height": 686.0399780273438,
-    "font_size": 26.66584587097168,
+    "font_size": 26.67,
     "font_name": "Times-Roman",
     "is_bold": false,
     "is_italic": false,
@@ -63,7 +67,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 6.5562744140625,
-    "vertical_space_before": 9.61370849609375
+    "vertical_space_before": 9.61370849609375,
+    "label": "NONE",
+    "language": "de"
   },
   {
     "text": "CLOSED TOED SHOES ARE REQUIRED FOR CLIMBING",
@@ -76,7 +82,7 @@
     "page_number": 1,
     "page_width": 326.0400085449219,
     "page_height": 686.0399780273438,
-    "font_size": 7.20074987411499,
+    "font_size": 7.2,
     "font_name": "Helvetica",
     "is_bold": false,
     "is_italic": false,
@@ -85,7 +91,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 6.1864013671875,
-    "vertical_space_before": 6.5562744140625
+    "vertical_space_before": 6.5562744140625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "PARENTS OR GUARDIANS NOT ATTENDING THE PARTY, PLEASE VISIT TOPJUMP.COM TO FILL OUT WAIVER SO YOUR CHILD CAN ATTEND. HOPE To SEE Y ou T HERE !",
@@ -98,7 +106,7 @@
     "page_number": 1,
     "page_width": 326.0400085449219,
     "page_height": 686.0399780273438,
-    "font_size": 7.20074987411499,
+    "font_size": 7.2,
     "font_name": "Helvetica",
     "is_bold": false,
     "is_italic": false,
@@ -107,7 +115,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": -10.46246337890625,
-    "vertical_space_before": 6.1864013671875
+    "vertical_space_before": 6.1864013671875,
+    "label": "H1",
+    "language": "en"
   },
   {
     "text": "WWW.TOPJUMP.COM",
@@ -120,7 +130,7 @@
     "page_number": 1,
     "page_width": 326.0400085449219,
     "page_height": 686.0399780273438,
-    "font_size": 18.025842666625977,
+    "font_size": 18.03,
     "font_name": "Helvetica",
     "is_bold": false,
     "is_italic": false,
@@ -129,6 +139,8 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 100,
-    "vertical_space_before": -10.46246337890625
+    "vertical_space_before": -10.46246337890625,
+    "label": "NONE",
+    "language": "en"
   }
 ]

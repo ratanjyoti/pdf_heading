@@ -1,6 +1,6 @@
 [
   {
-    "text": "Ontario's Libraries Working Together",
+    "text": "Ontario’s Libraries Working Together",
     "bbox": {
       "x0": 95.44059753417969,
       "y0": 72.08401489257812,
@@ -10,16 +10,18 @@
     "page_number": 1,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 15.960000038146973,
+    "font_size": 15.96,
     "font_name": "Arial-Black",
-    "is_bold": true,
+    "is_bold": false,
     "is_italic": false,
     "word_count": 4,
     "line_count": 2,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 39.39283752441406,
-    "vertical_space_before": 100
+    "vertical_space_before": 100,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "RFP: R RFP: R RFP: R RFP: Request f quest f quest f quest for Pr r Pr r Pr r Proposal oposal oposal oposal",
@@ -32,16 +34,18 @@
     "page_number": 1,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 32.040000915527344,
+    "font_size": 32.04,
     "font_name": "Arial-Black",
-    "is_bold": true,
+    "is_bold": false,
     "is_italic": false,
     "word_count": 25,
     "line_count": 13,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 46.48333740234375,
-    "vertical_space_before": 39.39283752441406
+    "vertical_space_before": 39.39283752441406,
+    "label": "TITLE",
+    "language": "ca"
   },
   {
     "text": "To Present a Proposal for Developing the Business Plan for the Ontario Digital Library",
@@ -63,7 +67,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.079803466796875,
-    "vertical_space_before": 46.48333740234375
+    "vertical_space_before": 46.48333740234375,
+    "label": "H1",
+    "language": "en"
   },
   {
     "text": "March 21, 2003",
@@ -76,7 +82,7 @@
     "page_number": 1,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 20.040000915527344,
+    "font_size": 20.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -85,10 +91,12 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 329.4356384277344,
-    "vertical_space_before": 12.079803466796875
+    "vertical_space_before": 12.079803466796875,
+    "label": "NONE",
+    "language": "de"
   },
   {
-    "text": "The Ontario Digital Library will make Ontario a better place to study, work and live by ensuring that all Ontario citizens have access to the knowledge and learning supports needed to be life-long learners and effective contributors towards Ontario's prosperity.",
+    "text": "The Ontario Digital Library will make Ontario a better place to study, work and live by ensuring that all Ontario citizens have access to the knowledge and learning supports needed to be life-long learners and effective contributors towards Ontario’s prosperity.",
     "bbox": {
       "x0": 91.66506958007812,
       "y0": 694.2640991210938,
@@ -98,7 +106,7 @@
     "page_number": 1,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ComicSansMS",
     "is_bold": false,
     "is_italic": false,
@@ -107,10 +115,12 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 100,
-    "vertical_space_before": 329.4356384277344
+    "vertical_space_before": 329.4356384277344,
+    "label": "NONE",
+    "language": "en"
   },
   {
-    "text": "Ontario's Digital Library",
+    "text": "Ontario’s Digital Library",
     "bbox": {
       "x0": 90.04060363769531,
       "y0": 88.59601593017578,
@@ -120,19 +130,21 @@
     "page_number": 2,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 20.040000915527344,
+    "font_size": 20.04,
     "font_name": "Arial-Black",
-    "is_bold": true,
+    "is_bold": false,
     "is_italic": false,
     "word_count": 3,
     "line_count": 1,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 3.4837112426757812,
-    "vertical_space_before": 100
+    "vertical_space_before": 100,
+    "label": "H1",
+    "language": "en"
   },
   {
-    "text": "A Critical Component for Implementing Ontario's Road Map to Prosperity Strategy",
+    "text": "A Critical Component for Implementing Ontario’s Road Map to Prosperity Strategy",
     "bbox": {
       "x0": 90.04060363769531,
       "y0": 120.31608581542969,
@@ -142,7 +154,7 @@
     "page_number": 2,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 15.960000038146973,
+    "font_size": 15.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -151,7 +163,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 39.23854064941406,
-    "vertical_space_before": 3.4837112426757812
+    "vertical_space_before": 3.4837112426757812,
+    "label": "H1",
+    "language": "en"
   },
   {
     "text": "Summary",
@@ -166,14 +180,16 @@
     "page_height": 792.0,
     "font_size": 12.0,
     "font_name": "Arial-Black",
-    "is_bold": true,
+    "is_bold": false,
     "is_italic": false,
     "word_count": 1,
     "line_count": 1,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 15.940826416015625,
-    "vertical_space_before": 39.23854064941406
+    "vertical_space_before": 39.23854064941406,
+    "label": "H2",
+    "language": "en"
   },
   {
     "text": "The purpose of this Request for Proposal ( RFP ) is to invite firms and/or consultants to present a proposal for developing the business plan for the Ontario Digital Library (ODL). The ODL will deliver high-quality library electronic content to all Ontario residents in order to assist people as they learn, work, and enhance their quality of life. The business plan to be developed is to document and clearly communicate:",
@@ -186,16 +202,18 @@
     "page_number": 2,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
-    "is_bold": false,
+    "is_bold": true,
     "is_italic": false,
     "word_count": 70,
     "line_count": 5,
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.397918701171875,
-    "vertical_space_before": 15.940826416015625
+    "vertical_space_before": 15.940826416015625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "how the ODL will be implemented, including the timeline the financial plan for the implementation the financial plan for the first 2 operating years, including capital and operating costs, revenues, etc. a financial forecast for the succeeding 2 operating years the services and products to be delivered by the ODL how the ODL will operate and be managed following the implementation who will be involved, and what their role/responsibility will be, for both the implementation and operational stages the marketing and communications plan for the ODL",
@@ -208,7 +226,7 @@
     "page_number": 2,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -217,7 +235,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 13.00506591796875,
-    "vertical_space_before": 12.397918701171875
+    "vertical_space_before": 12.397918701171875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "This business plan must be completed and approved by the ODL Steering Committee no later than September 30, 2003",
@@ -230,7 +250,7 @@
     "page_number": 2,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -239,7 +259,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.397918701171875,
-    "vertical_space_before": 13.00506591796875
+    "vertical_space_before": 13.00506591796875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Timeline:",
@@ -252,7 +274,7 @@
     "page_number": 2,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "Arial-ItalicMT",
     "is_bold": false,
     "is_italic": true,
@@ -261,7 +283,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 12.27642822265625,
-    "vertical_space_before": 12.397918701171875
+    "vertical_space_before": 12.397918701171875,
+    "label": "H3",
+    "language": "et"
   },
   {
     "text": "Those firms/consultants intended to submit a proposal to this RFP must indicate their intention to do so in an e-mail to Michael Ridley ( mridley@uoguelph.ca ) by April 11 th .",
@@ -274,16 +298,18 @@
     "page_number": 2,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
-    "is_bold": false,
-    "is_italic": false,
+    "is_bold": true,
+    "is_italic": true,
     "word_count": 31,
     "line_count": 2,
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.27642822265625,
-    "vertical_space_before": 12.27642822265625
+    "vertical_space_before": 12.27642822265625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Proposals may be e-mailed, mailed, couriered or faxed to: Larry Moore ( lmoore@accessola.com ), Executive Director, The Ontario Library Association, 100 Lombard St., Suite 303, Toronto, ON M5C 1M3. Proposals must be received by Noon on Monday, April 21, 2003.",
@@ -296,16 +322,18 @@
     "page_number": 2,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
-    "is_bold": false,
-    "is_italic": false,
+    "is_bold": true,
+    "is_italic": true,
     "word_count": 40,
     "line_count": 4,
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.39788818359375,
-    "vertical_space_before": 12.27642822265625
+    "vertical_space_before": 12.27642822265625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Those proposals that are short-listed will be invited to discuss their proposal during the week of April 28, 2003 . No presentation will be expected. Firms or consultants invited to an interview will be expected to discuss the project and their approach with the selection committee .",
@@ -318,16 +346,18 @@
     "page_number": 2,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
-    "is_bold": false,
-    "is_italic": false,
+    "is_bold": true,
+    "is_italic": true,
     "word_count": 47,
     "line_count": 4,
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.27642822265625,
-    "vertical_space_before": 12.39788818359375
+    "vertical_space_before": 12.39788818359375,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Contracts with the firm/consultant will be signed the week of May 5, 2003 with the work to commence as soon as possible thereafter.",
@@ -340,16 +370,18 @@
     "page_number": 2,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
-    "is_bold": false,
-    "is_italic": false,
+    "is_bold": true,
+    "is_italic": true,
     "word_count": 23,
     "line_count": 2,
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 38.54864501953125,
-    "vertical_space_before": 12.27642822265625
+    "vertical_space_before": 12.27642822265625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "RFP: To Develop the Ontario Digital Library Business Plan March 2003 2",
@@ -371,7 +403,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 100,
-    "vertical_space_before": 38.54864501953125
+    "vertical_space_before": 38.54864501953125,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Please note that we reserve the right not to select any of the submitted proposals and may seek further response to these Terms of Reference.",
@@ -384,7 +418,7 @@
     "page_number": 3,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -393,7 +427,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.397933959960938,
-    "vertical_space_before": 100
+    "vertical_space_before": 100,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "If you require further information or have any questions, please contact Michael Ridley by e- mail ( mridley@uoguelph.ca ) only by 3:00 p.m. on Friday April 18th . All questions and responses will be shared with those who have indicated that they will be submitting a proposal. Please note, that firms/consultants who have not indicated in an e-mail to Michael Ridley by April 11 th that they will be submitting a proposal will not receive any further information or question responses.",
@@ -406,16 +442,18 @@
     "page_number": 3,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
-    "is_bold": false,
-    "is_italic": false,
+    "is_bold": true,
+    "is_italic": true,
     "word_count": 81,
     "line_count": 6,
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 21.072494506835938,
-    "vertical_space_before": 12.397933959960938
+    "vertical_space_before": 12.397933959960938,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Background",
@@ -430,17 +468,19 @@
     "page_height": 792.0,
     "font_size": 12.0,
     "font_name": "Arial-Black",
-    "is_bold": true,
+    "is_bold": false,
     "is_italic": false,
     "word_count": 1,
     "line_count": 1,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 16.060821533203125,
-    "vertical_space_before": 21.072494506835938
+    "vertical_space_before": 21.072494506835938,
+    "label": "H2",
+    "language": "en"
   },
   {
-    "text": "First, some background on the ODL. For the last two years the Ontario Library Association has acted as a catalyst, bringing together the stakeholders needed to create the Ontario Digital Library (ODL). These stakeholders include Ontario's 5000+ public libraries, university, college, and school libraries, as well as Ontario government ministries.",
+    "text": "First, some background on the ODL. For the last two years the Ontario Library Association has acted as a catalyst, bringing together the stakeholders needed to create the Ontario Digital Library (ODL). These stakeholders include Ontario’s 5000+ public libraries, university, college, and school libraries, as well as Ontario government ministries.",
     "bbox": {
       "x0": 90.04060363769531,
       "y0": 239.12879943847656,
@@ -450,7 +490,7 @@
     "page_number": 3,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -459,7 +499,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.276458740234375,
-    "vertical_space_before": 16.060821533203125
+    "vertical_space_before": 16.060821533203125,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Libraries that serve very different clientele recognize that by working together they can create seamless access to quality electronic library services. Through the ODL, students will be able to explore a topic at school, use the same child-safe resources after school (either at home or at a public library), enter college or university with a knowledge of how to use electronic resources that are still available and then, after graduation, continue to use these skills and resources at work or at home.",
@@ -472,7 +514,7 @@
     "page_number": 3,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -481,7 +523,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.397918701171875,
-    "vertical_space_before": 12.276458740234375
+    "vertical_space_before": 12.276458740234375,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "We are moving into a period of convergence. With convergence we no longer have to license commercial products as individual libraries or institutions. We can work together to spend our money wisely. The provincial government has made this possible by working hard to provide all Ontarians with a stable, high-speed communications infrastructure. While there is still a great deal of work needed to improve this infrastructure, libraries are beginning to plan how best to exploit communications technology. We can reduce barriers to access and create the content infrastructure needed to support a knowledge society.",
@@ -494,7 +538,7 @@
     "page_number": 3,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -503,10 +547,12 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.276458740234375,
-    "vertical_space_before": 12.397918701171875
+    "vertical_space_before": 12.397918701171875,
+    "label": "NONE",
+    "language": "en"
   },
   {
-    "text": "The concept of an ODL is a key element in The Roadmap to Prosperity , a strategic plan to envision and attain Ontario's economic goal prepared by the Ontario Jobs and Investment Board. The OJIB strategic plan recommends an electronic library to \u201cconnect students to new workplaces, new sources of information and applied learning opportunities\u201d. The ODL will do that and much more. The ODL will connect students to electronic information, and will also leverage this investment to help connect all citizens to the electronic information they need as they make decisions, solve problems and enhance their quality of life.",
+    "text": "The concept of an ODL is a key element in The Roadmap to Prosperity , a strategic plan to envision and attain Ontario’s economic goal prepared by the Ontario Jobs and Investment Board. The OJIB strategic plan recommends an electronic library to “connect students to new workplaces, new sources of information and applied learning opportunities”. The ODL will do that and much more. The ODL will connect students to electronic information, and will also leverage this investment to help connect all citizens to the electronic information they need as they make decisions, solve problems and enhance their quality of life.",
     "bbox": {
       "x0": 90.04060363769531,
       "y0": 490.0017395019531,
@@ -516,16 +562,18 @@
     "page_number": 3,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
-    "is_italic": false,
+    "is_italic": true,
     "word_count": 100,
     "line_count": 7,
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 13.00506591796875,
-    "vertical_space_before": 12.276458740234375
+    "vertical_space_before": 12.276458740234375,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Libraries have long been a key delivery point for public services. The ODL will allow that delivery point to move closer to citizens, into the smallest of libraries and even into living rooms.",
@@ -538,7 +586,7 @@
     "page_number": 3,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -547,7 +595,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 12.88360595703125,
-    "vertical_space_before": 13.00506591796875
+    "vertical_space_before": 13.00506591796875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Libraries have a long tradition of using a practical, consultative approach to solving problems, and of learning from others. The ODL is a very practical solution to various problems.",
@@ -560,7 +610,7 @@
     "page_number": 3,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -569,7 +619,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 13.00506591796875,
-    "vertical_space_before": 12.88360595703125
+    "vertical_space_before": 12.88360595703125,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Jurisdiction-wide digital libraries are very practical and very real. The ODL we propose is leading edge for Ontario but several jurisdictions have forged the path with collaborative digital libraries. We can learn from their experiences. For example, The Alberta Library (TAL)",
@@ -582,7 +634,7 @@
     "page_number": 3,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -591,7 +643,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 13.63134765625,
-    "vertical_space_before": 13.00506591796875
+    "vertical_space_before": 13.00506591796875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "RFP: To Develop the Ontario Digital Library Business Plan March 2003 3",
@@ -613,10 +667,12 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 100,
-    "vertical_space_before": 13.63134765625
+    "vertical_space_before": 13.63134765625,
+    "label": "NONE",
+    "language": "en"
   },
   {
-    "text": "was incorporated in 1997 as a province-wide library consortium. TAL works collaboratively with its members to promote universal access to materials and resources in more than 250 public, post-secondary, special, government and regional libraries. Unlike ODL, TAL does not include elementary or secondary schools. However, the timeline and funding we are proposing for ODL is comparable to TAL\u2018s experience. TAL's business planning took several years. TAL's implementation plan was supported by 8 million dollars in provincially shared funding, spread over three years, later revised to 15 million dollars over 4 years. Not only is Alberta's population 30% of Ontario's, TAL does not include elementary or secondary schools as partners; it has 250 member libraries. ODL envisions universal access for all 10,000,000 Ontarians, with more than 5000 Ontario libraries as partners. Although ODL can learn from TAL's practices, the scope of planning and implementing ODL is much larger than TAL.",
+    "text": "was incorporated in 1997 as a province-wide library consortium. TAL works collaboratively with its members to promote universal access to materials and resources in more than 250 public, post-secondary, special, government and regional libraries. Unlike ODL, TAL does not include elementary or secondary schools. However, the timeline and funding we are proposing for ODL is comparable to TAL‘s experience. TAL’s business planning took several years. TAL’s implementation plan was supported by 8 million dollars in provincially shared funding, spread over three years, later revised to 15 million dollars over 4 years. Not only is Alberta’s population 30% of Ontario’s, TAL does not include elementary or secondary schools as partners; it has 250 member libraries. ODL envisions universal access for all 10,000,000 Ontarians, with more than 5000 Ontario libraries as partners. Although ODL can learn from TAL’s practices, the scope of planning and implementing ODL is much larger than TAL.",
     "bbox": {
       "x0": 90.0327377319336,
       "y0": 72.12049865722656,
@@ -626,7 +682,7 @@
     "page_number": 4,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -635,7 +691,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 13.005111694335938,
-    "vertical_space_before": 100
+    "vertical_space_before": 100,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "The ODL will be a partnership-based organization providing seamless electronic information services and resources to the citizens of Ontario. It will use local libraries as the entry point for common resources The ODL will recognize the unique responsibilities and needs of public libraries, school libraries, college and university libraries and special libraries. The ODL envisions a digital network of information resources, allowing members to collaborate when there is mutual benefit and to support the common mandates of local libraries.",
@@ -648,7 +706,7 @@
     "page_number": 4,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -657,7 +715,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.397918701171875,
-    "vertical_space_before": 13.005111694335938
+    "vertical_space_before": 13.005111694335938,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "The principles which will define and guide the ODL are:",
@@ -670,7 +730,7 @@
     "page_number": 4,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -679,7 +739,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 12.276458740234375,
-    "vertical_space_before": 12.397918701171875
+    "vertical_space_before": 12.397918701171875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Equitable access for all Ontarians:",
@@ -692,7 +754,7 @@
     "page_number": 4,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "Arial-BoldItalicMT",
     "is_bold": true,
     "is_italic": true,
@@ -701,7 +763,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 12.397918701171875,
-    "vertical_space_before": 12.276458740234375
+    "vertical_space_before": 12.276458740234375,
+    "label": "H3",
+    "language": "ca"
   },
   {
     "text": "We will bring consistent, high-quality electronic resources and services to 10 million Ontario citizens",
@@ -714,7 +778,7 @@
     "page_number": 4,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -723,7 +787,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.276458740234375,
-    "vertical_space_before": 12.397918701171875
+    "vertical_space_before": 12.397918701171875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "We will eliminate barriers to the access to information and create more consistent services for library clients.",
@@ -736,7 +802,7 @@
     "page_number": 4,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -745,7 +811,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.276458740234375,
-    "vertical_space_before": 12.276458740234375
+    "vertical_space_before": 12.276458740234375,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Shared decision-making and accountability:",
@@ -758,7 +826,7 @@
     "page_number": 4,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "Arial-BoldItalicMT",
     "is_bold": true,
     "is_italic": true,
@@ -767,10 +835,12 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 12.397918701171875,
-    "vertical_space_before": 12.276458740234375
+    "vertical_space_before": 12.276458740234375,
+    "label": "H3",
+    "language": "en"
   },
   {
-    "text": "We will facilitate consensus among members regarding ODL's portfolio of electronic licenses and services",
+    "text": "We will facilitate consensus among members regarding ODL’s portfolio of electronic licenses and services",
     "bbox": {
       "x0": 108.02793884277344,
       "y0": 472.9826965332031,
@@ -780,7 +850,7 @@
     "page_number": 4,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -789,7 +859,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.276458740234375,
-    "vertical_space_before": 12.397918701171875
+    "vertical_space_before": 12.397918701171875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "We will balance the interests and realities of small and large as well as rich and poor communities and institutions.",
@@ -802,7 +874,7 @@
     "page_number": 4,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -811,7 +883,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.27642822265625,
-    "vertical_space_before": 12.276458740234375
+    "vertical_space_before": 12.276458740234375,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Shared governance structure:",
@@ -824,7 +898,7 @@
     "page_number": 4,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "Arial-BoldItalicMT",
     "is_bold": true,
     "is_italic": true,
@@ -833,7 +907,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 12.39788818359375,
-    "vertical_space_before": 12.27642822265625
+    "vertical_space_before": 12.27642822265625,
+    "label": "H3",
+    "language": "en"
   },
   {
     "text": "We will share decision-making in order to enable the people we serve.",
@@ -846,7 +922,7 @@
     "page_number": 4,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -855,7 +931,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 12.2764892578125,
-    "vertical_space_before": 12.39788818359375
+    "vertical_space_before": 12.39788818359375,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "We will work based on an underlying assumption of trust and synergy.",
@@ -868,7 +946,7 @@
     "page_number": 4,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -877,7 +955,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 12.27642822265625,
-    "vertical_space_before": 12.2764892578125
+    "vertical_space_before": 12.2764892578125,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Shared funding:",
@@ -890,7 +970,7 @@
     "page_number": 4,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "Arial-BoldItalicMT",
     "is_bold": true,
     "is_italic": true,
@@ -899,7 +979,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 12.39788818359375,
-    "vertical_space_before": 12.27642822265625
+    "vertical_space_before": 12.27642822265625,
+    "label": "H3",
+    "language": "en"
   },
   {
     "text": "We will leverage provincial, institutional, and local dollars to realize economies of scale and put Ontario dollars to work for everyone .",
@@ -912,16 +994,18 @@
     "page_number": 4,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
-    "is_bold": false,
-    "is_italic": false,
+    "is_bold": true,
+    "is_italic": true,
     "word_count": 22,
     "line_count": 2,
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.39788818359375,
-    "vertical_space_before": 12.39788818359375
+    "vertical_space_before": 12.39788818359375,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "We will be willing to pool talents and dollars in order to provide common services that are truly greater than those that can be maintained by individual institutions.",
@@ -934,7 +1018,7 @@
     "page_number": 4,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -943,7 +1027,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 22.62432861328125,
-    "vertical_space_before": 12.39788818359375
+    "vertical_space_before": 12.39788818359375,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "RFP: To Develop the Ontario Digital Library Business Plan March 2003 4",
@@ -965,7 +1051,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 100,
-    "vertical_space_before": 22.62432861328125
+    "vertical_space_before": 22.62432861328125,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Local points of entry:",
@@ -978,7 +1066,7 @@
     "page_number": 5,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "Arial-BoldItalicMT",
     "is_bold": true,
     "is_italic": true,
@@ -987,7 +1075,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 13.005111694335938,
-    "vertical_space_before": 100
+    "vertical_space_before": 100,
+    "label": "H3",
+    "language": "en"
   },
   {
     "text": "We will provide the licenses, infrastructure, services and support that enable local libraries to provide exceptional services to their clientele. ODL will focus on support, providing the underpinning, not overshadowing.",
@@ -1000,7 +1090,7 @@
     "page_number": 5,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -1009,10 +1099,12 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.883712768554688,
-    "vertical_space_before": 13.005111694335938
+    "vertical_space_before": 13.005111694335938,
+    "label": "NONE",
+    "language": "en"
   },
   {
-    "text": "Services envisioned for the ODL's include:",
+    "text": "Services envisioned for the ODL’s include:",
     "bbox": {
       "x0": 89.99970245361328,
       "y0": 147.95423889160156,
@@ -1022,7 +1114,7 @@
     "page_number": 5,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -1031,7 +1123,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 13.005111694335938,
-    "vertical_space_before": 12.883712768554688
+    "vertical_space_before": 12.883712768554688,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Access:",
@@ -1044,7 +1138,7 @@
     "page_number": 5,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "Arial-BoldItalicMT",
     "is_bold": true,
     "is_italic": true,
@@ -1053,10 +1147,12 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 0.3974456787109375,
-    "vertical_space_before": 13.005111694335938
+    "vertical_space_before": 13.005111694335938,
+    "label": "H3",
+    "language": "en"
   },
   {
-    "text": "to the \u201cdeep\u201d web (i.e. Commercial, purchased electronic services) to credible web sites and electronic resources to digital government information to local digital collections",
+    "text": "to the “deep” web (i.e. Commercial, purchased electronic services) to credible web sites and electronic resources to digital government information to local digital collections",
     "bbox": {
       "x0": 107.99490356445312,
       "y0": 185.99806213378906,
@@ -1066,7 +1162,7 @@
     "page_number": 5,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -1075,7 +1171,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 13.005111694335938,
-    "vertical_space_before": 0.3974456787109375
+    "vertical_space_before": 0.3974456787109375,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Guidance and Advice:",
@@ -1088,7 +1186,7 @@
     "page_number": 5,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "Arial-BoldItalicMT",
     "is_bold": true,
     "is_italic": true,
@@ -1097,10 +1195,12 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 0.275970458984375,
-    "vertical_space_before": 13.005111694335938
+    "vertical_space_before": 13.005111694335938,
+    "label": "H3",
+    "language": "en"
   },
   {
-    "text": "to support e-learning to support citizens, in real-time, as they try to use electronic resources to assist citizens as they use web-links Training:",
+    "text": "to support e-learning to support citizens, in real-time, as they try to use electronic resources to assist citizens as they use web-links ",
     "bbox": {
       "x0": 89.99970245361328,
       "y0": 261.83184814453125,
@@ -1110,7 +1210,7 @@
     "page_number": 5,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -1119,7 +1219,33 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 0.397430419921875,
-    "vertical_space_before": 0.275970458984375
+    "vertical_space_before": 0.275970458984375,
+    "label": "NONE",
+    "language": "en"
+  },
+  {
+    "text": "Traning:",
+    "bbox": {
+      "x0": 89.99970245361328,
+      "y0": 312.4613037109375,
+      "x1": 150.88888549804688,
+      "y1": 324.7819519042969
+    },
+    "page_number": 5,
+    "page_width": 612.0,
+    "page_height": 792.0,
+    "font_size": 11.04,
+    "font_name": "Arial-BoldItalicMT",
+    "is_bold": true,
+    "is_italic": true,
+    "word_count": 1,
+    "line_count": 1,
+    "is_in_table": false,
+    "column": 1,
+    "vertical_space_after": 0.397430419921875,
+    "vertical_space_before": 13.005096435546875,
+    "label": "H3",
+    "language": "tl"
   },
   {
     "text": "for library workers for the general public",
@@ -1132,7 +1258,7 @@
     "page_number": 5,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -1141,7 +1267,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 13.005096435546875,
-    "vertical_space_before": 0.397430419921875
+    "vertical_space_before": 0.397430419921875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Provincial Purchasing & Licensing:",
@@ -1154,7 +1282,7 @@
     "page_number": 5,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "Arial-BoldItalicMT",
     "is_bold": true,
     "is_italic": true,
@@ -1163,7 +1291,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 0.2760009765625,
-    "vertical_space_before": 13.005096435546875
+    "vertical_space_before": 13.005096435546875,
+    "label": "H3",
+    "language": "en"
   },
   {
     "text": "of electronic content on a consortia basis for all member libraries",
@@ -1176,7 +1306,7 @@
     "page_number": 5,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -1185,7 +1315,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 13.005096435546875,
-    "vertical_space_before": 0.2760009765625
+    "vertical_space_before": 0.2760009765625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Technological Support:",
@@ -1198,7 +1330,7 @@
     "page_number": 5,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "Arial-BoldItalicMT",
     "is_bold": true,
     "is_italic": true,
@@ -1207,7 +1339,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 0.397430419921875,
-    "vertical_space_before": 13.005096435546875
+    "vertical_space_before": 13.005096435546875,
+    "label": "H3",
+    "language": "en"
   },
   {
     "text": "of common standards for the preservation and archiving local digital content of a common interface to ODL resources and services that can be imbedded in local library web sites",
@@ -1220,7 +1354,7 @@
     "page_number": 5,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -1229,7 +1363,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 27.64410400390625,
-    "vertical_space_before": 0.397430419921875
+    "vertical_space_before": 0.397430419921875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "What could the ODL really mean?",
@@ -1242,7 +1378,7 @@
     "page_number": 5,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "Arial-Black",
     "is_bold": true,
     "is_italic": false,
@@ -1251,7 +1387,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 12.033599853515625,
-    "vertical_space_before": 27.64410400390625
+    "vertical_space_before": 27.64410400390625,
+    "label": "H2",
+    "language": "en"
   },
   {
     "text": "For each Ontario citizen it could mean:",
@@ -1264,7 +1402,7 @@
     "page_number": 5,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "Arial-BoldMT",
     "is_bold": true,
     "is_italic": false,
@@ -1273,10 +1411,12 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 0.51885986328125,
-    "vertical_space_before": 12.033599853515625
+    "vertical_space_before": 12.033599853515625,
+    "label": "H4",
+    "language": "en"
   },
   {
-    "text": "One local point of entry to access seamless electronic library services and resources for their personal, educational and professional needs; Access to credible, high-quality, user-friendly electronic services through their community, school, or academic library; Confidence that the electronic services and sources they \u2013 and their children \u2013 are using are safe, valid, and bringing them both global and local perspectives; Electronic information and tools that enhance job skills and the learning experience",
+    "text": "One local point of entry to access seamless electronic library services and resources for their personal, educational and professional needs; Access to credible, high-quality, user-friendly electronic services through their community, school, or academic library; Confidence that the electronic services and sources they – and their children – are using are safe, valid, and bringing them both global and local perspectives; Electronic information and tools that enhance job skills and the learning experience",
     "bbox": {
       "x0": 162.0025634765625,
       "y0": 506.6107177734375,
@@ -1286,7 +1426,7 @@
     "page_number": 5,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -1295,7 +1435,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.155029296875,
-    "vertical_space_before": 0.51885986328125
+    "vertical_space_before": 0.51885986328125,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "For each Ontario student it could mean:",
@@ -1308,7 +1450,7 @@
     "page_number": 5,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "Arial-BoldMT",
     "is_bold": true,
     "is_italic": false,
@@ -1317,7 +1459,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 0.518798828125,
-    "vertical_space_before": 12.155029296875
+    "vertical_space_before": 12.155029296875,
+    "label": "H4",
+    "language": "en"
   },
   {
     "text": "One local point of entry to quality, curriculum- based electronic information resources and services Connection to their individual educational environment, whether at the elementary, secondary or post-secondary levels",
@@ -1330,7 +1474,7 @@
     "page_number": 5,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -1339,7 +1483,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 35.6844482421875,
-    "vertical_space_before": 0.518798828125
+    "vertical_space_before": 0.518798828125,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "RFP: To Develop the Ontario Digital Library Business Plan March 2003 5",
@@ -1361,7 +1507,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 100,
-    "vertical_space_before": 35.6844482421875
+    "vertical_space_before": 35.6844482421875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Confidence that the services and resources people are using are credible, available when they need them and adaptable to different learning styles",
@@ -1374,7 +1522,7 @@
     "page_number": 6,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -1383,7 +1531,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.883712768554688,
-    "vertical_space_before": 100
+    "vertical_space_before": 100,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "For each Ontario library it could mean:",
@@ -1396,7 +1546,7 @@
     "page_number": 6,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "Arial-BoldMT",
     "is_bold": true,
     "is_italic": false,
@@ -1405,7 +1555,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 0.5189056396484375,
-    "vertical_space_before": 12.883712768554688
+    "vertical_space_before": 12.883712768554688,
+    "label": "H4",
+    "language": "en"
   },
   {
     "text": "One point of entry for themselves and their clientele to quality electronic resources and services that support and enhance their collections, programs and services The opportunity to show case their local community, collections, services, and expertise The opportunity to gain from the provincial, collaborative partnership in order to provide a seamless gateway to digital resources and services",
@@ -1418,7 +1570,7 @@
     "page_number": 6,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -1427,7 +1579,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.883712768554688,
-    "vertical_space_before": 0.5189056396484375
+    "vertical_space_before": 0.5189056396484375,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "For the Ontario government it could mean:",
@@ -1440,7 +1594,7 @@
     "page_number": 6,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "Arial-BoldMT",
     "is_bold": true,
     "is_italic": false,
@@ -1449,10 +1603,12 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 0.3974456787109375,
-    "vertical_space_before": 12.883712768554688
+    "vertical_space_before": 12.883712768554688,
+    "label": "H4",
+    "language": "en"
   },
   {
-    "text": "A point of entry to information services and resources for all Ontario citizens, connecting to portal initiatives . Support of the Ontario E-Learning strategy through a collaborative digital library initiative that positions Ontario on the global e-learning scene Improved access and flexibility for all students at all ages and stages (supports Ontario's lifelong learning strategy) The opportunity to address emerging job skills shortages and facilitate school to work and job to job transitions with the necessary information and knowledge supports and tools",
+    "text": "A point of entry to information services and resources for all Ontario citizens, connecting to portal initiatives . Support of the Ontario E-Learning strategy through a collaborative digital library initiative that positions Ontario on the global e-learning scene Improved access and flexibility for all students at all ages and stages (supports Ontario’s lifelong learning strategy) The opportunity to address emerging job skills shortages and facilitate school to work and job to job transitions with the necessary information and knowledge supports and tools",
     "bbox": {
       "x0": 162.0402069091797,
       "y0": 236.5944366455078,
@@ -1462,19 +1618,21 @@
     "page_number": 6,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
-    "is_italic": false,
+    "is_italic": true,
     "word_count": 82,
     "line_count": 9,
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.883636474609375,
-    "vertical_space_before": 0.3974456787109375
+    "vertical_space_before": 0.3974456787109375,
+    "label": "NONE",
+    "language": "en"
   },
   {
-    "text": "ODL will be an incorporated non-profit organization governed by a Board of Directors elected by a voting membership. The Board will include representatives from all stakeholders. We envision a governance model similar to that prepared for the province's ORION network.",
+    "text": "ODL will be an incorporated non-profit organization governed by a Board of Directors elected by a voting membership. The Board will include representatives from all stakeholders. We envision a governance model similar to that prepared for the province’s ORION network.",
     "bbox": {
       "x0": 90.0373306274414,
       "y0": 363.0575866699219,
@@ -1484,7 +1642,7 @@
     "page_number": 6,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -1493,7 +1651,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.397918701171875,
-    "vertical_space_before": 12.883636474609375
+    "vertical_space_before": 12.883636474609375,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "More information regarding the envisioned phasing, funding and resources required for the ODL can be found in the appendixes.",
@@ -1506,7 +1666,7 @@
     "page_number": 6,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -1515,7 +1675,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 21.11181640625,
-    "vertical_space_before": 12.397918701171875
+    "vertical_space_before": 12.397918701171875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "The Business Plan to be Developed",
@@ -1530,17 +1692,19 @@
     "page_height": 792.0,
     "font_size": 12.0,
     "font_name": "Arial-Black",
-    "is_bold": true,
+    "is_bold": false,
     "is_italic": false,
     "word_count": 6,
     "line_count": 1,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 27.5806884765625,
-    "vertical_space_before": 21.11181640625
+    "vertical_space_before": 21.11181640625,
+    "label": "H2",
+    "language": "en"
   },
   {
-    "text": "The business plan which needs to be developed for the ODL must be a formal business plan that documents and clearly communicates the ODL's services, funding and governance structures, as well as implementation plans for 2004-2005, and operational plans for 2005- 2007. The planning process must also secure the full commitment of all stakeholders, as represented on the Steering Committee.",
+    "text": "The business plan which needs to be developed for the ODL must be a formal business plan that documents and clearly communicates the ODL’s services, funding and governance structures, as well as implementation plans for 2004-2005, and operational plans for 2005- 2007. The planning process must also secure the full commitment of all stakeholders, as represented on the Steering Committee.",
     "bbox": {
       "x0": 90.04060363769531,
       "y0": 503.60870361328125,
@@ -1550,7 +1714,7 @@
     "page_number": 6,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -1559,7 +1723,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.8017578125,
-    "vertical_space_before": 27.5806884765625
+    "vertical_space_before": 27.5806884765625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Specifically, the business plan must include:",
@@ -1572,7 +1738,7 @@
     "page_number": 6,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -1581,7 +1747,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 13.00506591796875,
-    "vertical_space_before": 11.8017578125
+    "vertical_space_before": 11.8017578125,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "how the ODL will be implemented, including the timeline the financial plan for the implementation the financial plan for the first 2 operating years, including capital and operating costs, revenues, etc. a financial forecast for the succeeding 2 operating years the services and products to be delivered by the ODL how the ODL will operate and be managed following the implementation who will be involved, and what their role/responsibility will be, for both the implementation and operational stages",
@@ -1594,7 +1762,7 @@
     "page_number": 6,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -1603,7 +1771,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 13.9569091796875,
-    "vertical_space_before": 13.00506591796875
+    "vertical_space_before": 13.00506591796875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "RFP: To Develop the Ontario Digital Library Business Plan March 2003 6",
@@ -1625,7 +1795,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 100,
-    "vertical_space_before": 13.9569091796875
+    "vertical_space_before": 13.9569091796875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "the marketing and communications plan for the ODL the commitment of all stakeholders to their responsibilities",
@@ -1638,7 +1810,7 @@
     "page_number": 7,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -1647,7 +1819,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 13.005111694335938,
-    "vertical_space_before": 100
+    "vertical_space_before": 100,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "The process of developing this business plan must be extremely consultative to ensure that all stakeholders are engaged in creating a synergistic ODL organization. The proposal must indicate how this consultative process will be approached.",
@@ -1660,16 +1834,18 @@
     "page_number": 7,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
-    "font_name": "ArialMT",
+    "font_size": 11.04,
+    "font_name": "Arial-ItalicMT",
     "is_bold": false,
-    "is_italic": false,
+    "is_italic": true,
     "word_count": 35,
     "line_count": 3,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 13.005111694335938,
-    "vertical_space_before": 13.005111694335938
+    "vertical_space_before": 13.005111694335938,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "The business plan for the ODL must address significant issues. There are, for example, enormous differences in the financial resources available to libraries mandated to provide similar services. Some post-secondary and public libraries, particularly those in large urban areas, have the facilities, funding and technological infrastructure necessary to service their patrons with electronic services and resources. Many others, particularly in rural regions, do not. The proposal must indicate how these issues will be approached.",
@@ -1682,16 +1858,18 @@
     "page_number": 7,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
-    "is_italic": false,
+    "is_italic": true,
     "word_count": 74,
     "line_count": 6,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 33.801727294921875,
-    "vertical_space_before": 13.005111694335938
+    "vertical_space_before": 13.005111694335938,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Milestones",
@@ -1706,14 +1884,16 @@
     "page_height": 792.0,
     "font_size": 12.0,
     "font_name": "Arial-Black",
-    "is_bold": true,
+    "is_bold": false,
     "is_italic": false,
     "word_count": 1,
     "line_count": 1,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 15.940765380859375,
-    "vertical_space_before": 33.801727294921875
+    "vertical_space_before": 33.801727294921875,
+    "label": "H3",
+    "language": "fr"
   },
   {
     "text": "1) A preliminary report will be issued during June 2003.",
@@ -1726,7 +1906,7 @@
     "page_number": 7,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "Arial-ItalicMT",
     "is_bold": false,
     "is_italic": true,
@@ -1735,7 +1915,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 12.276458740234375,
-    "vertical_space_before": 15.940765380859375
+    "vertical_space_before": 15.940765380859375,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "2) It is expected that an Interim Report, suitable for distribution to the broader library community will be available by August 1, 2003 and that there will be an opportunity for responses to be evaluated.",
@@ -1748,7 +1930,7 @@
     "page_number": 7,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "Arial-ItalicMT",
     "is_bold": false,
     "is_italic": true,
@@ -1757,7 +1939,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.397918701171875,
-    "vertical_space_before": 12.276458740234375
+    "vertical_space_before": 12.276458740234375,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "3) The business plan must be completed and approved by the ODL Steering Committee no later than September 30, 2003.",
@@ -1770,7 +1954,7 @@
     "page_number": 7,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "Arial-ItalicMT",
     "is_bold": false,
     "is_italic": true,
@@ -1779,7 +1963,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 21.08349609375,
-    "vertical_space_before": 12.397918701171875
+    "vertical_space_before": 12.397918701171875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Approach and Specific Proposal Requirements",
@@ -1794,14 +1980,16 @@
     "page_height": 792.0,
     "font_size": 12.0,
     "font_name": "Arial-Black",
-    "is_bold": true,
+    "is_bold": false,
     "is_italic": false,
     "word_count": 5,
     "line_count": 1,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 16.060791015625,
-    "vertical_space_before": 21.08349609375
+    "vertical_space_before": 21.08349609375,
+    "label": "H2",
+    "language": "en"
   },
   {
     "text": "The firm/consultant (or proposed team of consultants) will be expected to work closely with the ODL Steering Committee. Terms of reference for the Committee are in the appendix. Given the consultative nature of this business planning process, the firm/consultant will also be expected to travel and communicate regularly with various stakeholders as well as with electronic resource publishers/vendors.",
@@ -1814,16 +2002,18 @@
     "page_number": 7,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
-    "is_italic": false,
+    "is_italic": true,
     "word_count": 58,
     "line_count": 5,
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.39794921875,
-    "vertical_space_before": 16.060791015625
+    "vertical_space_before": 16.060791015625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "The proposal should include the following information:",
@@ -1836,7 +2026,7 @@
     "page_number": 7,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -1845,10 +2035,12 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 12.27642822265625,
-    "vertical_space_before": 12.39794921875
+    "vertical_space_before": 12.39794921875,
+    "label": "NONE",
+    "language": "en"
   },
   {
-    "text": "a) name of the firm/consultant b) names of those individuals who will be engaged in this project, their specific responsibilities on this project and relevant experience/qualifications c) description of similar engagements that highlight the firm's experience in business planning and building stakeholder commitment d) references with details of work completed for these references e) description of the approach that will be used for completing the business plan, including a timeline f) cost to complete the study including estimated expenses (i.e.: travel, etc.) and payment structure",
+    "text": "a) name of the firm/consultant b) names of those individuals who will be engaged in this project, their specific responsibilities on this project and relevant experience/qualifications c) description of similar engagements that highlight the firm’s experience in business planning and building stakeholder commitment d) references with details of work completed for these references e) description of the approach that will be used for completing the business plan, including a timeline f) cost to complete the study including estimated expenses (i.e.: travel, etc.) and payment structure",
     "bbox": {
       "x0": 108.0357894897461,
       "y0": 556.3925170898438,
@@ -1858,7 +2050,7 @@
     "page_number": 7,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -1867,7 +2059,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 48.41119384765625,
-    "vertical_space_before": 12.27642822265625
+    "vertical_space_before": 12.27642822265625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "RFP: To Develop the Ontario Digital Library Business Plan March 2003 7",
@@ -1889,7 +2083,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 100,
-    "vertical_space_before": 48.41119384765625
+    "vertical_space_before": 48.41119384765625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Evaluation and Awarding of Contract",
@@ -1904,14 +2100,16 @@
     "page_height": 792.0,
     "font_size": 12.0,
     "font_name": "Arial-Black",
-    "is_bold": true,
+    "is_bold": false,
     "is_italic": false,
     "word_count": 5,
     "line_count": 1,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 24.940818786621094,
-    "vertical_space_before": 100
+    "vertical_space_before": 100,
+    "label": "H2",
+    "language": "en"
   },
   {
     "text": "The contract will be awarded to the bidder whose submission offers the best value; the contract will not necessarily be awarded to the lowest bidder. We reserve the right not to award the contract to any of the bidders responding to this RFP and we may seek further response.",
@@ -1924,7 +2122,7 @@
     "page_number": 8,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -1933,7 +2131,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.276473999023438,
-    "vertical_space_before": 24.940818786621094
+    "vertical_space_before": 24.940818786621094,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Specifically, proposals will be evaluated proposals according to the following criteria:",
@@ -1946,7 +2146,7 @@
     "page_number": 8,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -1955,7 +2155,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 25.116012573242188,
-    "vertical_space_before": 12.276473999023438
+    "vertical_space_before": 12.276473999023438,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Quality of the proposal /approach outlined for undertaking the business planning process Demonstrated experience Cost, including expenses Timeline and projected completion date Other relevant factors as determined by the ODL Steering Committee",
@@ -1968,7 +2170,7 @@
     "page_number": 8,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -1977,7 +2179,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.99407958984375,
-    "vertical_space_before": 25.116012573242188
+    "vertical_space_before": 25.116012573242188,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Questions regarding this RFP should be directed by e-mail only to Michael Ridley (mridley@uoguelph.ca).",
@@ -1990,7 +2194,7 @@
     "page_number": 8,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -1999,7 +2203,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 12.99407958984375,
-    "vertical_space_before": 12.99407958984375
+    "vertical_space_before": 12.99407958984375,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Bidders are asked not to contact any other member of the ODL Catalyst Team or the ODL Steering Committee.",
@@ -2012,7 +2218,7 @@
     "page_number": 8,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 11.039999961853027,
+    "font_size": 11.04,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -2021,7 +2227,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 381.402587890625,
-    "vertical_space_before": 12.99407958984375
+    "vertical_space_before": 12.99407958984375,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "RFP: To Develop the Ontario Digital Library Business Plan March 2003 8",
@@ -2043,7 +2251,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 100,
-    "vertical_space_before": 381.402587890625
+    "vertical_space_before": 381.402587890625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Appendix A: ODL Envisioned Phases & Funding",
@@ -2058,14 +2268,16 @@
     "page_height": 792.0,
     "font_size": 12.0,
     "font_name": "Arial-Black",
-    "is_bold": true,
+    "is_bold": false,
     "is_italic": false,
     "word_count": 7,
     "line_count": 1,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 15.357917785644531,
-    "vertical_space_before": 100
+    "vertical_space_before": 100,
+    "label": "H2",
+    "language": "en"
   },
   {
     "text": "Phase I: Business Planning",
@@ -2078,7 +2290,7 @@
     "page_number": 9,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "Arial-BoldMT",
     "is_bold": true,
     "is_italic": false,
@@ -2087,10 +2299,12 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.922119140625,
-    "vertical_space_before": 15.357917785644531
+    "vertical_space_before": 15.357917785644531,
+    "label": "H3",
+    "language": "en"
   },
   {
-    "text": "Timeline: March 2003 \u2013 September 2003 Funding Requested: ~$100,000 jointly funded by stakeholder groups and the provincial government.",
+    "text": "Timeline: March 2003 – September 2003 Funding Requested: ~$100,000 jointly funded by stakeholder groups and the provincial government.",
     "bbox": {
       "x0": 90.04049682617188,
       "y0": 162.8233642578125,
@@ -2100,16 +2314,18 @@
     "page_number": 9,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
-    "font_name": "Arial-BoldMT",
+    "font_size": 9.96,
+    "font_name": "Arial-ItalicMT",
     "is_bold": true,
-    "is_italic": false,
+    "is_italic": true,
     "word_count": 18,
     "line_count": 2,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.80255126953125,
-    "vertical_space_before": 11.922119140625
+    "vertical_space_before": 11.922119140625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Result: The ODL business plan",
@@ -2122,19 +2338,21 @@
     "page_number": 9,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
-    "font_name": "Arial-BoldMT",
+    "font_size": 9.96,
+    "font_name": "Arial-ItalicMT",
     "is_bold": true,
-    "is_italic": false,
+    "is_italic": true,
     "word_count": 5,
     "line_count": 1,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 12.0416259765625,
-    "vertical_space_before": 11.80255126953125
+    "vertical_space_before": 11.80255126953125,
+    "label": "NONE",
+    "language": "en"
   },
   {
-    "text": "The first phase will be to build the ODL business plan. This plan will clearly define the ODL's services, funding and governance structures, as well as implementation plans for 2003-2005. It will also secure the full commitment of all stakeholders and scope the operational plan for ODL for 2006 and beyond.",
+    "text": "The first phase will be to build the ODL business plan. This plan will clearly define the ODL’s services, funding and governance structures, as well as implementation plans for 2003-2005. It will also secure the full commitment of all stakeholders and scope the operational plan for ODL for 2006 and beyond.",
     "bbox": {
       "x0": 90.04049682617188,
       "y0": 220.42205810546875,
@@ -2144,7 +2362,7 @@
     "page_number": 9,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -2153,7 +2371,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.8026123046875,
-    "vertical_space_before": 12.0416259765625
+    "vertical_space_before": 12.0416259765625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Given the number and diversity of stakeholders involved, the business planning process must be a fully consultative approach. To ensure that the planning results in a workable plan with the full commitment of all stakeholders it must have competent, dedicated staffing and monies for the travel and communication components so critical in a consultative process.",
@@ -2166,7 +2386,7 @@
     "page_number": 9,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -2175,7 +2395,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 23.206817626953125,
-    "vertical_space_before": 11.8026123046875
+    "vertical_space_before": 11.8026123046875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Phase II: Implementing and Transitioning",
@@ -2188,7 +2410,7 @@
     "page_number": 9,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "Arial-BoldMT",
     "is_bold": true,
     "is_italic": false,
@@ -2197,10 +2419,12 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.922119140625,
-    "vertical_space_before": 23.206817626953125
+    "vertical_space_before": 23.206817626953125,
+    "label": "H3",
+    "language": "en"
   },
   {
-    "text": "Timeline: April 2004 \u2013 December 2006 Funding Requested: Funding from other states and provinces suggest that the ODL could receive funding of up to $50 Million (over 3 years). Funding to be provided partnership of government, library stakeholders and other interested parties.",
+    "text": "Timeline: April 2004 – December 2006 Funding Requested: Funding from other states and provinces suggest that the ODL could receive funding of up to $50 Million (over 3 years). Funding to be provided partnership of government, library stakeholders and other interested parties.",
     "bbox": {
       "x0": 90.04049682617188,
       "y0": 358.31829833984375,
@@ -2210,16 +2434,18 @@
     "page_number": 9,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "Arial-ItalicMT",
-    "is_bold": false,
+    "is_bold": true,
     "is_italic": true,
     "word_count": 42,
     "line_count": 4,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.922119140625,
-    "vertical_space_before": 11.922119140625
+    "vertical_space_before": 11.922119140625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Result: The ODL is implemented and validated",
@@ -2232,16 +2458,18 @@
     "page_number": 9,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
-    "font_name": "Arial-BoldMT",
+    "font_size": 9.96,
+    "font_name": "Arial-ItalicMT",
     "is_bold": true,
-    "is_italic": false,
+    "is_italic": true,
     "word_count": 7,
     "line_count": 1,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 12.041656494140625,
-    "vertical_space_before": 11.922119140625
+    "vertical_space_before": 11.922119140625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "The second phase will be to implement the ODL based on the business plan. This phase recognizes that for ODL to be optimally successful libraries must transition to a new way of doing business and providing services. The transition must occur while libraries continue to provide existing services and respond to current challenges. This implementation phase will funded by a partnership of government, library stakeholders and other interested parties as a means to quickly jumpstart the ODL.",
@@ -2254,7 +2482,7 @@
     "page_number": 9,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -2263,7 +2491,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 11.922088623046875,
-    "vertical_space_before": 12.041656494140625
+    "vertical_space_before": 12.041656494140625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "The seed money requested will allow libraries to realign their budgets and services as the infrastructure and content of the ODL is created and secured. Some of the funding will be new money, although there is every indication that existing budgets and methods of operating may be modified as a result of recommendations . During this phase the polices, procedures, governance structures and accountability mechanisms of the ODL will be put in place. Pilot projects will be initiated, evaluated and expanded. Information resources will be identified, contracts for these resources will be negotiated and resources will be made deployed through the ODL. Regular evaluation during this phase will ensure the ODL is achieving its objectives and is accountable to its key communities.",
@@ -2276,16 +2506,18 @@
     "page_number": 9,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
-    "is_italic": false,
+    "is_italic": true,
     "word_count": 122,
     "line_count": 8,
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 11.68310546875,
-    "vertical_space_before": 11.922088623046875
+    "vertical_space_before": 11.922088623046875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Phase III: Operating and Growing the ODL",
@@ -2298,7 +2530,7 @@
     "page_number": 9,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "Arial-BoldMT",
     "is_bold": true,
     "is_italic": false,
@@ -2307,7 +2539,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.922119140625,
-    "vertical_space_before": 11.68310546875
+    "vertical_space_before": 11.68310546875,
+    "label": "H3",
+    "language": "en"
   },
   {
     "text": "Timeline: January 2007 - Funding: $50 Million annually ($35 Million requested from government)",
@@ -2320,16 +2554,18 @@
     "page_number": 9,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
-    "font_name": "Arial-BoldMT",
+    "font_size": 9.96,
+    "font_name": "Arial-ItalicMT",
     "is_bold": true,
-    "is_italic": false,
+    "is_italic": true,
     "word_count": 13,
     "line_count": 2,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.80255126953125,
-    "vertical_space_before": 11.922119140625
+    "vertical_space_before": 11.922119140625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Result: The ODL is fully operational and sustainable",
@@ -2342,16 +2578,18 @@
     "page_number": 9,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
-    "font_name": "Arial-BoldMT",
+    "font_size": 9.96,
+    "font_name": "Arial-ItalicMT",
     "is_bold": true,
-    "is_italic": false,
+    "is_italic": true,
     "word_count": 8,
     "line_count": 1,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 12.04156494140625,
-    "vertical_space_before": 11.80255126953125
+    "vertical_space_before": 11.80255126953125,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "In the third phase the ODL moves into the operational stage. Ontarians will experience the full benefits of the initiative and libraries will consolidate support around the ODL to grow resources and extend",
@@ -2364,7 +2602,7 @@
     "page_number": 9,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -2373,7 +2611,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 16.3824462890625,
-    "vertical_space_before": 12.04156494140625
+    "vertical_space_before": 12.04156494140625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "RFP: To Develop the Ontario Digital Library Business Plan March 2003 9",
@@ -2395,7 +2635,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 100,
-    "vertical_space_before": 16.3824462890625
+    "vertical_space_before": 16.3824462890625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "capabilities. The challenge is to secure resources sufficient to both sustain the original investments and to enhance the ODL.",
@@ -2408,7 +2650,7 @@
     "page_number": 10,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -2417,10 +2659,12 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 11.802604675292969,
-    "vertical_space_before": 100
+    "vertical_space_before": 100,
+    "label": "NONE",
+    "language": "en"
   },
   {
-    "text": "The ongoing funding of the ODL will be based on a partnership model involving all the key participants (i.e. government, libraries, donors, public and private sectors). All participants (i.e. beneficiaries) are expected to make financial contributions to the ODL. It is important in achieving the full impact of the ODL on Ontario's economy, society and learning support that all library sectors are participants (university, colleges, public libraries and schools).",
+    "text": "The ongoing funding of the ODL will be based on a partnership model involving all the key participants (i.e. government, libraries, donors, public and private sectors). All participants (i.e. beneficiaries) are expected to make financial contributions to the ODL. It is important in achieving the full impact of the ODL on Ontario’s economy, society and learning support that all library sectors are participants (university, colleges, public libraries and schools).",
     "bbox": {
       "x0": 90.04060363769531,
       "y0": 106.66790008544922,
@@ -2430,7 +2674,7 @@
     "page_number": 10,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -2439,10 +2683,12 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 6.4041748046875,
-    "vertical_space_before": 11.802604675292969
+    "vertical_space_before": 11.802604675292969,
+    "label": "NONE",
+    "language": "en"
   },
   {
-    "text": "The proposed funding model requires a continuing government investment, but also recognizes that as the ODL matures a growing share of ODL funding will come from libraries and non-governmental sources. During the 3-year implementation phase (2004 \u2013 2006) libraries will realign their budgets to enable ongoing funding contributions to ODL. During the same period ODL must build the proposed endowment and secure public and private sector gifts and/or in-kind contributions. The following chart outlines the model. This model is based on these assumptions:",
+    "text": "The proposed funding model requires a continuing government investment, but also recognizes that as the ODL matures a growing share of ODL funding will come from libraries and non-governmental sources. During the 3-year implementation phase (2004 – 2006) libraries will realign their budgets to enable ongoing funding contributions to ODL. During the same period ODL must build the proposed endowment and secure public and private sector gifts and/or in-kind contributions. The following chart outlines the model. This model is based on these assumptions:",
     "bbox": {
       "x0": 90.04060363769531,
       "y0": 170.28240966796875,
@@ -2452,7 +2698,7 @@
     "page_number": 10,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -2461,7 +2707,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 6.404296875,
-    "vertical_space_before": 6.4041748046875
+    "vertical_space_before": 6.4041748046875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "1. that ODL expenditures will increase by 50% over a 10 year period",
@@ -2474,7 +2722,7 @@
     "page_number": 10,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -2483,7 +2731,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 6.2847900390625,
-    "vertical_space_before": 6.404296875
+    "vertical_space_before": 6.404296875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "2. that government funding will decrease from 70% to 45% during that 10 year period",
@@ -2496,7 +2746,7 @@
     "page_number": 10,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -2505,7 +2755,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 6.404296875,
-    "vertical_space_before": 6.2847900390625
+    "vertical_space_before": 6.2847900390625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "3. that library contributions, endowment and gifts/in-kind funding will increase from 30% to 55% during the same period",
@@ -2518,7 +2770,7 @@
     "page_number": 10,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -2527,7 +2779,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 17.8084716796875,
-    "vertical_space_before": 6.404296875
+    "vertical_space_before": 6.404296875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "OVERVIEW OF ODL FUNDING MODEL",
@@ -2540,7 +2794,7 @@
     "page_number": 10,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "Arial-BoldMT",
     "is_bold": true,
     "is_italic": false,
@@ -2549,7 +2803,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.31610107421875,
-    "vertical_space_before": 17.8084716796875
+    "vertical_space_before": 17.8084716796875,
+    "label": "NONE",
+    "language": "de"
   },
   {
     "text": "Funding Source 2007 2017 Government $35M (70%) $33.75M (45%) Libraries $10M (20%) $22.5M (30%) Endowment $4.5M (9%) $15M (20%) Gifts/In-Kind $0.5M (1%) $3.75M (5%) TOTAL ANNUAL $50M $75M",
@@ -2562,16 +2818,18 @@
     "page_number": 10,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
-    "is_bold": false,
+    "is_bold": true,
     "is_italic": false,
     "word_count": 28,
     "line_count": 18,
-    "is_in_table": false,
+    "is_in_table": true,
     "column": 1,
     "vertical_space_after": 23.923919677734375,
-    "vertical_space_before": 12.31610107421875
+    "vertical_space_before": 12.31610107421875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "While the private sector will be invited to participate in the ODL through the endowment, gifts and in- kind contributions, the ODL will also explore compatible commercial services which leverage the reach of the ODL and help to offset operating costs.",
@@ -2584,7 +2842,7 @@
     "page_number": 10,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -2593,10 +2851,12 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.922119140625,
-    "vertical_space_before": 23.923919677734375
+    "vertical_space_before": 23.923919677734375,
+    "label": "NONE",
+    "language": "en"
   },
   {
-    "text": "A $50M budget leverages the consortium buying power of the province's libraries to secure the best prices for information resources, the widest accessibility and the most favourable contracts. A budget of this nature will ensure a core digital collection of sufficient scope and coverage to address a substantial amount of the wide and diverse information and learning needs of the citizens of Ontario (an overview of the nature of the ODL digital collection is appended). The proposed ODL expenditures in 2006 represent an investment of $5.00 per citizen.",
+    "text": "A $50M budget leverages the consortium buying power of the province’s libraries to secure the best prices for information resources, the widest accessibility and the most favourable contracts. A budget of this nature will ensure a core digital collection of sufficient scope and coverage to address a substantial amount of the wide and diverse information and learning needs of the citizens of Ontario (an overview of the nature of the ODL digital collection is appended). The proposed ODL expenditures in 2006 represent an investment of $5.00 per citizen.",
     "bbox": {
       "x0": 90.0484619140625,
       "y0": 487.5575866699219,
@@ -2606,16 +2866,18 @@
     "page_number": 10,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
-    "is_bold": false,
-    "is_italic": false,
+    "is_bold": true,
+    "is_italic": true,
     "word_count": 88,
     "line_count": 6,
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 11.8026123046875,
-    "vertical_space_before": 11.922119140625
+    "vertical_space_before": 11.922119140625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "It is important to recognize that every new dollar per citizen invested in the Ontario Digital Library has a double benefit: it supports a province-wide library of high quality information resources and it strengthens every local library in Ontario by allowing them to reinvest existing dollars in new resources that enhance local services. This multiplier means that for every dollar invested in ODL the return on investment is worth $2 of value for Ontario.",
@@ -2628,16 +2890,18 @@
     "page_number": 10,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
-    "is_bold": false,
-    "is_italic": false,
+    "is_bold": true,
+    "is_italic": true,
     "word_count": 74,
     "line_count": 5,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 105.7950439453125,
-    "vertical_space_before": 11.8026123046875
+    "vertical_space_before": 11.8026123046875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "RFP: To Develop the Ontario Digital Library Business Plan March 2003 10 10 10 10",
@@ -2659,7 +2923,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 100,
-    "vertical_space_before": 105.7950439453125
+    "vertical_space_before": 105.7950439453125,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Appendix B: ODL Steering Committee Terms of Reference",
@@ -2674,14 +2940,16 @@
     "page_height": 792.0,
     "font_size": 12.0,
     "font_name": "Arial-Black",
-    "is_bold": true,
+    "is_bold": false,
     "is_italic": false,
     "word_count": 8,
     "line_count": 2,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 27.35791778564453,
-    "vertical_space_before": 100
+    "vertical_space_before": 100,
+    "label": "H2",
+    "language": "en"
   },
   {
     "text": "1. Preamble",
@@ -2694,7 +2962,7 @@
     "page_number": 11,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "Arial-BoldMT",
     "is_bold": true,
     "is_italic": false,
@@ -2703,7 +2971,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 12.0416259765625,
-    "vertical_space_before": 27.35791778564453
+    "vertical_space_before": 27.35791778564453,
+    "label": "H3",
+    "language": "en"
   },
   {
     "text": "Implementation of the Ontario Digital Library (ODL) requires a detailed business plan to be developed and supported by its diverse stakeholder communities (see: www.odl.on.ca ). The business development planning and commitment process will be overseen by a Steering Committee, who are accountable to potential ODL funders including the Province of Ontario.",
@@ -2716,7 +2986,7 @@
     "page_number": 11,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -2725,7 +2995,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 11.8026123046875,
-    "vertical_space_before": 12.0416259765625
+    "vertical_space_before": 12.0416259765625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "2. Terms of Reference",
@@ -2738,7 +3010,7 @@
     "page_number": 11,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "Arial-BoldMT",
     "is_bold": true,
     "is_italic": false,
@@ -2747,7 +3019,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.922119140625,
-    "vertical_space_before": 11.8026123046875
+    "vertical_space_before": 11.8026123046875,
+    "label": "H3",
+    "language": "en"
   },
   {
     "text": "In broad terms, the ODL Business Plan Steering Committee is responsible for development of the business plan, securing sector support, and management of the planners and process. Specific responsibilities include:",
@@ -2760,7 +3034,7 @@
     "page_number": 11,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -2769,7 +3043,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.922119140625,
-    "vertical_space_before": 11.922119140625
+    "vertical_space_before": 11.922119140625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "2.1 developing a detailed business plan for the three-year implementation phase of the ODL, including governance, management, funding model and structure, organizational structure, marketing, staffing, and evaluation; 2.2 consulting with and reporting to stakeholder communities, to ensure open, consistent and two-way communication, and to ensure meaningful opportunities for stakeholder input into decision- making; 2.3 recruiting and managing the business planner(s); 2.4 defining terms of reference and resource parameters for business planner(s), and authorizing expenditures; 2.5 serving as a focus group for business planner(s) to test ideas; 2.6 providing signoff for business planner(s) at key decision points of business plan development; 2.7 securing commitment from library, government, and institutional stakeholders for implementation of the business plan; 2.8 presenting the business plan to funders 2.9 undertaking advocacy efforts to promote the ODL to the broader communities including library and education communities.",
@@ -2782,7 +3058,7 @@
     "page_number": 11,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -2791,7 +3067,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 11.8026123046875,
-    "vertical_space_before": 11.922119140625
+    "vertical_space_before": 11.922119140625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "3. Membership",
@@ -2804,7 +3082,7 @@
     "page_number": 11,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "Arial-BoldMT",
     "is_bold": true,
     "is_italic": false,
@@ -2813,7 +3091,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.922149658203125,
-    "vertical_space_before": 11.8026123046875
+    "vertical_space_before": 11.8026123046875,
+    "label": "H3",
+    "language": "en"
   },
   {
     "text": "Each of the four sectors, Schools, Colleges, Universities, and Public Libraries can appoint up to two representatives to the steering committee",
@@ -2826,7 +3106,7 @@
     "page_number": 11,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -2835,7 +3115,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.922119140625,
-    "vertical_space_before": 11.922149658203125
+    "vertical_space_before": 11.922149658203125,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "3.1 Schools:",
@@ -2848,7 +3130,7 @@
     "page_number": 11,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -2857,7 +3139,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 0.4083251953125,
-    "vertical_space_before": 11.922119140625
+    "vertical_space_before": 11.922119140625,
+    "label": "NONE",
+    "language": "nl"
   },
   {
     "text": "- Ontario School Library Association (OSLA) and The Association of Library Consultants and Coordinators of Ontario (TALCO) ( Executive Council of OSLA to name representative in consultation with TALCO ) 3.2 Universities:",
@@ -2870,16 +3154,18 @@
     "page_number": 11,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
-    "is_italic": false,
+    "is_italic": true,
     "word_count": 32,
     "line_count": 4,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 0.28887939453125,
-    "vertical_space_before": 0.4083251953125
+    "vertical_space_before": 0.4083251953125,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "- Ontario Council of University Libraries (OCUL) ( OCUL to name ) 3.3 Colleges:",
@@ -2892,16 +3178,18 @@
     "page_number": 11,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
-    "is_italic": false,
+    "is_italic": true,
     "word_count": 14,
     "line_count": 2,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 0.288818359375,
-    "vertical_space_before": 0.28887939453125
+    "vertical_space_before": 0.28887939453125,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "- Bibliocentre, and Heads of Libraries and Learning Resources (UAG and HLLR to name ) 3.4 Public libraries:",
@@ -2914,16 +3202,18 @@
     "page_number": 11,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
-    "is_italic": false,
+    "is_italic": true,
     "word_count": 18,
     "line_count": 2,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 0.40838623046875,
-    "vertical_space_before": 0.288818359375
+    "vertical_space_before": 0.288818359375,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "- Administrators of Medium-sized Public Libraries of Ontario (AMPLO), Administrators of Rural Urban Public Libraries of Ontario (ARUPLO), Administrators of Small Public Libraries of Ontario (ASPLO) and Chief Executives of Large-sized Public Libraries of Ontario (CELPLO) ( Executives of AMPLO, ARUPLO, ASPLO and CELPLO to name )",
@@ -2936,16 +3226,18 @@
     "page_number": 11,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
-    "is_italic": false,
+    "is_italic": true,
     "word_count": 47,
     "line_count": 4,
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 42.48974609375,
-    "vertical_space_before": 0.40838623046875
+    "vertical_space_before": 0.40838623046875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "RFP: To Develop the Ontario Digital Library Business Plan March 2003 11 11 11 11",
@@ -2967,7 +3259,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 100,
-    "vertical_space_before": 42.48974609375
+    "vertical_space_before": 42.48974609375,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "3.5 Ontario Library Association representative (ex-officio) ( OLA to appoint one representative )",
@@ -2980,16 +3274,18 @@
     "page_number": 12,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
-    "is_italic": false,
+    "is_italic": true,
     "word_count": 13,
     "line_count": 1,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 0.5278854370117188,
-    "vertical_space_before": 100
+    "vertical_space_before": 100,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "- Role of the OLA ex-officio member: To act as a liaison between the steering committee and the OLA Board, and to assist the chair with the administrative responsibilities connected with the preparation of the business plan, finance, and communications.",
@@ -3002,7 +3298,7 @@
     "page_number": 12,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -3011,7 +3307,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 11.922119140625,
-    "vertical_space_before": 0.5278854370117188
+    "vertical_space_before": 0.5278854370117188,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "3.6 It is anticipated that as planning for the ODL evolves, the Steering Committee may, at its discretion, call on invited experts to advise on issues as required.",
@@ -3024,7 +3322,7 @@
     "page_number": 12,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -3033,7 +3331,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.8026123046875,
-    "vertical_space_before": 11.922119140625
+    "vertical_space_before": 11.922119140625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "4. Appointment Criteria and Process",
@@ -3046,7 +3346,7 @@
     "page_number": 12,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "Arial-BoldMT",
     "is_bold": true,
     "is_italic": false,
@@ -3055,7 +3355,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 12.5296630859375,
-    "vertical_space_before": 11.8026123046875
+    "vertical_space_before": 11.8026123046875,
+    "label": "H3",
+    "language": "en"
   },
   {
     "text": "4.1 Groups and organizations named in Section 3 above are responsible for appointing up to two representatives to the Steering Committee.",
@@ -3068,7 +3370,7 @@
     "page_number": 12,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -3077,7 +3379,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.88824462890625,
-    "vertical_space_before": 12.5296630859375
+    "vertical_space_before": 12.5296630859375,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "4.2 Desired characteristics for steering committee appointees include:",
@@ -3090,7 +3394,7 @@
     "page_number": 12,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -3099,10 +3403,12 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.961944580078125,
-    "vertical_space_before": 12.88824462890625
+    "vertical_space_before": 12.88824462890625,
+    "label": "NONE",
+    "language": "en"
   },
   {
-    "text": "\u2022 Strategic thinkers; \u2022 Committed to the concept of multi-sector partnerships; \u2022 Knowledgeable about digital libraries and resources; \u2022 Knowledgeable about government structures; \u2022 Respected by their communities; influential; \u2022 Able to take a consultative approach; \u2022 Able to devote time to Steering Committee business: approximately one day per month for meetings plus 2-3 working days per month on related activities .",
+    "text": "• Strategic thinkers; • Committed to the concept of multi-sector partnerships; • Knowledgeable about digital libraries and resources; • Knowledgeable about government structures; • Respected by their communities; influential; • Able to take a consultative approach; • Able to devote time to Steering Committee business: approximately one day per month for meetings plus 2-3 working days per month on related activities .",
     "bbox": {
       "x0": 108.04060363769531,
       "y0": 246.91390991210938,
@@ -3112,7 +3418,7 @@
     "page_number": 12,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -3121,7 +3427,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 11.853912353515625,
-    "vertical_space_before": 11.961944580078125
+    "vertical_space_before": 11.961944580078125,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "5. Term",
@@ -3134,7 +3442,7 @@
     "page_number": 12,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "Arial-BoldMT",
     "is_bold": true,
     "is_italic": false,
@@ -3143,7 +3451,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 12.041656494140625,
-    "vertical_space_before": 11.853912353515625
+    "vertical_space_before": 11.853912353515625,
+    "label": "H3",
+    "language": "id"
   },
   {
     "text": "Expected term on the Steering Committee is the time required to complete development of the business plan plus two months. This process is expected to take approximately 6 months.",
@@ -3156,7 +3466,7 @@
     "page_number": 12,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -3165,7 +3475,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.8026123046875,
-    "vertical_space_before": 12.041656494140625
+    "vertical_space_before": 12.041656494140625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "6. Chair",
@@ -3178,7 +3490,7 @@
     "page_number": 12,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "Arial-BoldMT",
     "is_bold": true,
     "is_italic": false,
@@ -3187,7 +3499,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 12.041656494140625,
-    "vertical_space_before": 11.8026123046875
+    "vertical_space_before": 11.8026123046875,
+    "label": "H3",
+    "language": "cy"
   },
   {
     "text": "Chair will be appointed by the Board of the Ontario Library Association.",
@@ -3200,7 +3514,7 @@
     "page_number": 12,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -3209,7 +3523,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 14.08343505859375,
-    "vertical_space_before": 12.041656494140625
+    "vertical_space_before": 12.041656494140625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "Role of the Chair:",
@@ -3222,7 +3538,7 @@
     "page_number": 12,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -3231,7 +3547,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.922119140625,
-    "vertical_space_before": 14.08343505859375
+    "vertical_space_before": 14.08343505859375,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "In addition to the characteristics for appointees (4.2) the role of the chair will be as a process agent working with the selected consultant(s), OLA, and the Steering Committee to prepare the business plan. The chair must be able to devote 5-8 days per month on activities related to the preparation of the business plan, and communications to stakeholders, funders, and government.",
@@ -3244,7 +3562,7 @@
     "page_number": 12,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -3253,7 +3571,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.68310546875,
-    "vertical_space_before": 11.922119140625
+    "vertical_space_before": 11.922119140625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "7. Meetings",
@@ -3266,7 +3586,7 @@
     "page_number": 12,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "Arial-BoldMT",
     "is_bold": true,
     "is_italic": false,
@@ -3275,7 +3595,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 12.0416259765625,
-    "vertical_space_before": 11.68310546875
+    "vertical_space_before": 11.68310546875,
+    "label": "H3",
+    "language": "af"
   },
   {
     "text": "It is expected that in person meetings are held once per month and the majority of business will be conducted by e-mail, and teleconference.",
@@ -3288,7 +3610,7 @@
     "page_number": 12,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -3297,7 +3619,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.68304443359375,
-    "vertical_space_before": 12.0416259765625
+    "vertical_space_before": 12.0416259765625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "8. Lines of Accountability and Communication",
@@ -3310,7 +3634,7 @@
     "page_number": 12,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "Arial-BoldMT",
     "is_bold": true,
     "is_italic": false,
@@ -3319,7 +3643,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 12.04168701171875,
-    "vertical_space_before": 11.68304443359375
+    "vertical_space_before": 11.68304443359375,
+    "label": "H3",
+    "language": "en"
   },
   {
     "text": "8.1 The Steering Committee is accountable to the Province of Ontario, and to its business plan funders.",
@@ -3332,7 +3658,7 @@
     "page_number": 12,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -3341,7 +3667,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.922119140625,
-    "vertical_space_before": 12.04168701171875
+    "vertical_space_before": 12.04168701171875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "8.2 The role of the Ontario Library Association is to assume responsibility for funds contributed by the ODL funders to finance the business plan, to hold the funds in a separate account, and disperse them for purposes as directed by the Steering Committee. OLA will provide financial reports to the Steering Committee as requested and shall comply with all government reporting regulations for funds received.",
@@ -3354,7 +3682,7 @@
     "page_number": 12,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -3363,7 +3691,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 12.8238525390625,
-    "vertical_space_before": 11.922119140625
+    "vertical_space_before": 11.922119140625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "RFP: To Develop the Ontario Digital Library Business Plan March 2003 12 12 12 12",
@@ -3385,10 +3715,12 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 100,
-    "vertical_space_before": 12.8238525390625
+    "vertical_space_before": 12.8238525390625,
+    "label": "NONE",
+    "language": "en"
   },
   {
-    "text": "8.3 The Steering Committee is accountable to its constituent groups and other stakeholders for ongoing communications and consultation on issues and progress. The Steering committee is responsible for strong liaison with government particularly the Chief Information Officer Community Services Cluster, ADM's and Deputy Ministers.",
+    "text": "8.3 The Steering Committee is accountable to its constituent groups and other stakeholders for ongoing communications and consultation on issues and progress. The Steering committee is responsible for strong liaison with government particularly the Chief Information Officer Community Services Cluster, ADM’s and Deputy Ministers.",
     "bbox": {
       "x0": 95.80059814453125,
       "y0": 83.76982879638672,
@@ -3398,7 +3730,7 @@
     "page_number": 13,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -3407,7 +3739,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 11.8026123046875,
-    "vertical_space_before": 100
+    "vertical_space_before": 100,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "9. Financial and Administrative Policies",
@@ -3420,7 +3754,7 @@
     "page_number": 13,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "Arial-BoldMT",
     "is_bold": true,
     "is_italic": false,
@@ -3429,7 +3763,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 12.0416259765625,
-    "vertical_space_before": 11.8026123046875
+    "vertical_space_before": 11.8026123046875,
+    "label": "H3",
+    "language": "en"
   },
   {
     "text": "9.1 Service on the Steering Committee is non-remunerative 9.2 Travel and meeting expenses for Steering Committee members are reimbursed according to the policies of the Ontario Library Association 9.3 Conflict of Interest:",
@@ -3442,7 +3778,7 @@
     "page_number": 13,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -3451,7 +3787,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 0.40838623046875,
-    "vertical_space_before": 12.0416259765625
+    "vertical_space_before": 12.0416259765625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "The ODL Steering Committee will function according to standard conflict of interest guidelines ensuring that members, their immediate family members, or their places of employment, will not benefit financially from the decisions the Steering Committee might make. As a first order of business, the Steering Committee will be expected to adopt a conflict of interest policy statement and procedural guidelines that will govern its work.",
@@ -3464,7 +3802,7 @@
     "page_number": 13,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -3473,7 +3811,9 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 463.6173095703125,
-    "vertical_space_before": 0.40838623046875
+    "vertical_space_before": 0.40838623046875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "RFP: To Develop the Ontario Digital Library Business Plan March 2003 13 13 13 13",
@@ -3495,10 +3835,12 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 100,
-    "vertical_space_before": 463.6173095703125
+    "vertical_space_before": 463.6173095703125,
+    "label": "NONE",
+    "language": "en"
   },
   {
-    "text": "Appendix C: ODL's Envisioned Electronic Resources",
+    "text": "Appendix C: ODL’s Envisioned Electronic Resources",
     "bbox": {
       "x0": 96.04060363769531,
       "y0": 92.51997375488281,
@@ -3510,14 +3852,16 @@
     "page_height": 792.0,
     "font_size": 12.0,
     "font_name": "Arial-Black",
-    "is_bold": true,
+    "is_bold": false,
     "is_italic": false,
     "word_count": 6,
     "line_count": 2,
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 27.47791290283203,
-    "vertical_space_before": 100
+    "vertical_space_before": 100,
+    "label": "H2",
+    "language": "en"
   },
   {
     "text": "The purpose of the ODL is to provide equal access to information for all Ontario citizens through collaboration and resource sharing. ODL will be a portal - capable of customization as a home page for local libraries - to organized, comprehensive, authoritative and validated e-information resources to meet the needs of all Ontario citizens at all stages and in all aspects of their education, life and work. Some examples:",
@@ -3530,7 +3874,7 @@
     "page_number": 14,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -3539,7 +3883,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.922119140625,
-    "vertical_space_before": 27.47791290283203
+    "vertical_space_before": 27.47791290283203,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "1. Reference Resources",
@@ -3552,7 +3898,7 @@
     "page_number": 14,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -3561,7 +3907,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.922119140625,
-    "vertical_space_before": 11.922119140625
+    "vertical_space_before": 11.922119140625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "- directories: companies, associations, organizations, governments, educational institutions, etc. etc. - almanacs, country information - dictionaries, thesauri, encyclopedias -consumer information - phone books, - travel guides, entertainment guides - weather information - media/newspapers - leisure time, recreational activity guides - indexing and abstracting services - currency converters, - virtual reference services -vocational/career information -internet search engines -current awareness services",
@@ -3574,7 +3922,7 @@
     "page_number": 14,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -3583,7 +3931,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.922119140625,
-    "vertical_space_before": 11.922119140625
+    "vertical_space_before": 11.922119140625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "2. Subject Guides",
@@ -3596,7 +3946,7 @@
     "page_number": 14,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -3605,7 +3955,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.8026123046875,
-    "vertical_space_before": 11.922119140625
+    "vertical_space_before": 11.922119140625,
+    "label": "NONE",
+    "language": "ca"
   },
   {
     "text": "-arts and humanities - business and economics - education -recreation and sports -entertainment - games, activities for kids -health information -science and technology -social sciences -society and culture",
@@ -3618,7 +3970,7 @@
     "page_number": 14,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -3627,7 +3979,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.8026123046875,
-    "vertical_space_before": 11.8026123046875
+    "vertical_space_before": 11.8026123046875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "3. Educational tool-kits",
@@ -3640,7 +3994,7 @@
     "page_number": 14,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -3649,7 +4003,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.922119140625,
-    "vertical_space_before": 11.8026123046875
+    "vertical_space_before": 11.8026123046875,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "-guides to information gathering methodologies, information literacy -study guides -study skill development -web-based curricula -internet search guides",
@@ -3662,7 +4018,7 @@
     "page_number": 14,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -3671,7 +4027,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 11.922119140625,
-    "vertical_space_before": 11.922119140625
+    "vertical_space_before": 11.922119140625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "4. Journals, books, maps, music etc.",
@@ -3684,7 +4042,7 @@
     "page_number": 14,
     "page_width": 612.0,
     "page_height": 792.0,
-    "font_size": 9.960000038146973,
+    "font_size": 9.96,
     "font_name": "ArialMT",
     "is_bold": false,
     "is_italic": false,
@@ -3693,7 +4051,9 @@
     "is_in_table": false,
     "column": 1,
     "vertical_space_after": 65.41705322265625,
-    "vertical_space_before": 11.922119140625
+    "vertical_space_before": 11.922119140625,
+    "label": "NONE",
+    "language": "en"
   },
   {
     "text": "RFP: To Develop the Ontario Digital Library Business Plan March 2003 14 14 14 14",
@@ -3715,6 +4075,8 @@
     "is_in_table": false,
     "column": 2,
     "vertical_space_after": 100,
-    "vertical_space_before": 65.41705322265625
+    "vertical_space_before": 65.41705322265625,
+    "label": "NONE",
+    "language": "en"
   }
 ]

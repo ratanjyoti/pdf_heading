@@ -1,0 +1,31 @@
+# Filename: .dockerignore
+
+# Ignore Python's cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment folders
+.venv
+venv/
+env/
+
+# Ignore Git directory
+.git/
+
+# Ignore IDE/editor configuration files
+.vscode/
+.idea/
+
+# Ignore any local data folders - this data should be mounted via volumes,
+# not baked into the image.
+data/
+data_to_upgrade/
+sample_dataset/
+predictions/
+raw_extracted/
+training_pdfs/
+layout_training_images/
+
+# Ignore the Dockerfile itself and other local config
+Dockerfile
+*.md```
