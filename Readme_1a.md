@@ -75,8 +75,7 @@ Prepare Labeled Data: Use main.py extract to generate raw data, then manually la
 Train Both Models: Use the smart main.py script to train both the "lite" and "full" models.
 
 Generated bash
-# Train the fast model
-python main.py train --input data/labeled_training/ --output models/heading_model_speed_focused.joblib --model_type lite
+# Train the model
+python process_all_pdfs.py --pdf_dir sample_dataset/pdfs/ --model models/heading_model.joblib --output_dir sample_dataset/outputs/
 
-# Train the accurate model
-python main.py train --input data/labeled_training/ --output models/heading_model_high_accuracy.joblib --model_type full
+
