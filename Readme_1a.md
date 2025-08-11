@@ -6,7 +6,7 @@ The system uses a sophisticated pipeline combining advanced document analysis wi
 
 ## Key Features
 
-*   **High Speed:** Utilizes a two-pass cascade model to process large documents well within a 10-second time limit.
+*   **High Speed:** Utilizes a model to process large documents well within a 10-second time limit.
 *   **High Accuracy:** Employs a powerful Sentence Transformer model for deep semantic understanding and applies business rules to eliminate common errors (e.g., page numbers, table content).
 *   **Multilingual:** Built to understand over 50 languages, including Japanese, French, and German, out of the box.
 *   **Automated & Portable:** Fully automated batch processing using a single command. Dockerization ensures it runs consistently anywhere.
@@ -72,7 +72,7 @@ After the command completes, the output_jsons folder will be populated with the 
 Training a New Model (Advanced)
 To improve accuracy or add support for new document styles, you can re-train the models.
 Prepare Labeled Data: Use main.py extract to generate raw data, then manually label it and place it in a training folder (e.g., data/labeled_training).
-Train Both Models: Use the smart main.py script to train both the "lite" and "full" models.
+Train Models: Use the main.py script to train models.
 
 Generated bash
 # Train the model
