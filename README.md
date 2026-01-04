@@ -1,211 +1,199 @@
-Document Relevance Processor with PDF Heading Extraction
-📋 Overview
-The Document Relevance Processor is an advanced NLP-powered tool designed to intelligently rank and summarize document sections based on their relevance to user queries. This enhanced version includes robust PDF heading extraction capabilities, preserving document structure while performing semantic relevance analysis.
+# 📄 PDF Heading Extraction & Evaluation System
 
-✨ Key Features
-🔍 Smart PDF Parsing: Extract headings, subheadings, and document hierarchy from PDF files
+A fast, offline, CPU-only system to extract structured headings (Title, H1, H2, H3) from PDF documents using layout-aware heuristics — with optional ground-truth evaluation and HTML visualization.
 
-🎯 Relevance Scoring: Combine BM25, TF-IDF, and semantic embeddings for accurate ranking
+---
 
-👥 Persona-Based Filtering: Tailor results for specific user profiles (e.g., "Health_Conscious", "Chef")
+## 🚀 Overview
 
-📝 Intelligent Summarization: Generate concise summaries using T5 transformer models
+This project automatically analyzes PDF documents and reconstructs their logical structure by detecting headings based on **font size**, **styling**, **page position**, and **layout frequency**.
 
-🔄 Structured Output: JSON-formatted results with preserved document hierarchy
+It is designed for environments where:
+- ❌ Internet access is unavailable
+- ❌ Large ML / DL models are not allowed
+- ✅ Deterministic, explainable output is required
+- ✅ Speed and low memory usage matter
 
-🐳 Containerized Deployment: Full Docker support for easy deployment
+The system also supports **accuracy evaluation** against manually annotated ground-truth JSON files and generates **HTML comparison reports**.
 
-📁 Project Structure
-document-relevance-processor/
-├── data/
-│   ├── labeled_training/          # Training datasets
-│   ├── models/                    # Pretrained models
-│   ├── predictions/               # Prediction outputs
-│   └── sample_dataset/           # Sample data for testing
-├── utils/                         # Utility functions
-├── .dockerignore                 # Docker ignore rules
-├── Dockerfile                    # Container configuration
-├── README.md                     # This file
-├── Readme_1a.md                 # Detailed technical documentation
-├── main.py                       # Main application entry point
-├── predict.py                    # Prediction script
-├── process_all_pdfs.py          # Batch PDF processing
-├── requirements.txt             # Python dependencies
-└── upgrade_data.py              # Data upgrade utilities
+---
 
-🚀 Quick Start
-Prerequisites
-Docker (recommended) or Python 3.9+
+## ✨ Key Features
 
-4GB RAM minimum (8GB recommended for large documents)
+- 📐 Layout-aware heading detection (Title, H1, H2, H3)
+- ⚡ Fast processing using multiprocessing (CPU only)
+- 🧠 No machine learning, no pretrained models
+- 🌐 Fully offline
+- 📄 JSON output for downstream processing
+- 📊 Precision / Recall / F1 evaluation
+- 🌍 HTML reports for visual inspection
+- 🧹 Auto-clears old output on every run
 
-Git for cloning the repository
+---
 
-Installation
-Option 1: Docker (Recommended)
-# Clone the repository
-git clone <repository-url>
-cd document-relevance-processor
+## 🛠️ Tech Stack
 
-# Build the Docker image
-docker build -t doc-relevance-processor .
+- **Python 3.9+**
+- **PyMuPDF (fitz)** — fast and lightweight PDF parsing
+- Standard Python libraries only  
+  (`multiprocessing`, `collections`, `difflib`, `json`, `os`)
 
-# Run the container
-docker run -v $(pwd)/data:/app/data -it doc-relevance-processor
+---
 
-Option 2: Local Installation
-# Clone and setup
-git clone <repository-url>
-cd document-relevance-processor
+## 📁 Project Structure
 
-# Create virtual environment (optional but recommended)
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+pdf-heading-extractor/
+│
+├── input/ # Input PDF files
+│ └── sample.pdf
+│
+├── ground_truth/ # Ground truth annotations
+│ └── sample.json
+│
+├── output/
+│ ├── sample.json # Extracted headings
+│ ├── accuracy_report.json # Precision / Recall / F1
+│ └── html_report/
+│ └── sample.html # HTML comparison report
+│
+├── main.py # Main script
+└── README.md
 
-# Install dependencies
-pip install -r requirements.txt
+markdown
+Copy code
 
-# Download NLTK data
-python -c "import nltk; nltk.download('punkt'); nltk.download('wordnet'); nltk.download('stopwords')"
+⚠️ **Important:**  
+Ground truth filenames **must exactly match** the PDF name:
 
-📖 Usage Examples
-Basic PDF Processing# Process a single PDF with heading extraction
-python main.py --input "documents/menu.pdf" \
-               --query "vegetarian options" \
-               --persona "Health_Conscious"
+sample.pdf → sample.json
 
-Batch Processing
-# Process multiple PDFs
-python process_all_pdfs.py --input-dir "documents/" \
-                           --output-dir "results/" \
-                           --query "extract dessert recipes"
+yaml
+Copy code
 
-Advanced Options
-# With custom configuration
-python main.py \
-  --input "document.pdf" \
-  --query "gluten-free alternatives" \
-  --persona "Dietary_Restricted" \
-  --extract-headings true \
-  --hierarchy-depth 3 \
-  --min-relevance 0.5 \
-  --output-format "structured" \
-  --save-headings "document_structure.json"
+---
 
-🛠️ Configuration
+## 🧠 Heading Detection Logic
 
-Key Configuration Files
-config.json - Main configuration
+The system uses a **rule-based scoring strategy**:
 
-relevant_terms.json - Priority terms for scoring
+### Signals Used
+- Font size hierarchy
+- Font frequency across document
+- Bold / Italic emphasis
+- Vertical position on page
+- Repeating footer/header pattern detection
 
-irrelevant_terms.json - Terms to filter out
+### Classification Heuristic
+| Pattern | Assigned Level |
+|------|---------------|
+| Largest font + top of page | Title |
+| Large font + bold | H1 |
+| Medium font + bold | H2 |
+| Smaller recurring structured text | H3 |
 
-synonyms.py - Synonym generation module
+This makes the system **explainable, stable, and fast**.
 
-PDF Extraction Settings
-Configure in config.json:
+---
 
+## 📄 Ground Truth Format
+
+```json
 {
-  "pdf_processing": {
-    "heading_detection": {
-      "font_size_threshold": 1.2,
-      "bold_weight": 0.8,
-      "min_length": 2,
-      "max_length": 100
-    },
-    "chunking": {
-      "max_chunk_size": 1000,
-      "overlap": 100,
-      "preserve_headings": true
-    }
-  }
-}
-
-📊 Output Format
-The tool generates structured JSON output:
-{
-  "metadata": {
-    "document": "menu.pdf",
-    "query": "vegetarian options",
-    "persona": "Health_Conscious",
-    "processing_time": "2.34s"
-  },
-  "headings_hierarchy": [
+  "title": "Document Title",
+  "outline": [
     {
-      "heading": "Main Menu",
-      "level": 1,
-      "relevance_score": 0.95,
-      "sections": [...]
+      "level": "H1",
+      "text": "Introduction",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Background",
+      "page": 2
     }
-  ],
-  "ranked_sections": [
-   {
-      "section_id": "sec_001",
-      "content": "Vegetarian pasta with fresh vegetables...",
-      "summary": "Fresh vegetable pasta dish",
-      "relevance_score": 0.92,
-      "source_heading": "Vegetarian Options",
-      "source_page": 5
-    }
-  ],
-  "processing_stats": {
-    "total_sections": 45,
-    "relevant_sections": 12,
-    "average_relevance": 0.78
-  }
+  ]
 }
+📊 Evaluation Metrics
+Predicted headings are matched with ground truth using:
 
-📈 Performance Tips
-For large documents: Enable batch processing in config
+Heading level
 
-For better accuracy: Adjust relevance thresholds based on your use case
+Page number
 
-For speed: Use smaller models or enable caching
+Text similarity (> 0.8)
 
-For memory: Process documents in smaller batches
+Metrics Generated
+Precision
 
-🤝 Contributing
-Fork the repository
+Recall
 
-Create a feature branch: git checkout -b feature-name
+F1-Score
 
-Commit changes: git commit -m 'Add feature'
+Saved to:
 
-Push to branch: git push origin feature-name
+bash
+Copy code
+output/accuracy_report.json
+🌐 HTML Reports
+HTML reports are generated only when valid ground truth exists.
 
-Open a Pull Request
+They display:
 
-Development Setup
-# Install development dependencies
-pip install -r requirements-dev.txt
+🟢 Predicted headings
 
-# Run tests
-python -m pytest
+🔵 Ground truth headings
 
-# Format code
-black .
+Open directly:
+bash
+Copy code
+output/html_report/sample.html
+Or run as a local website:
+bash
+Copy code
+cd output/html_report
+python -m http.server 8080
+Then open:
 
-.
+arduino
+Copy code
+http://localhost:8080
+▶️ How to Run
+bash
+Copy code
+python main.py
+The script will:
+
+Clear previous output
+
+Process all PDFs in input/
+
+Extract structured headings
+
+Save JSON output
+
+Evaluate against ground truth (if available)
+
+Generate HTML reports for matched files
+
+⚙️ Performance Characteristics
+Constraint	Status
+CPU-only	✅
+Offline	✅
+Large ML models	❌ Not used
+Execution time	≤ 10 sec (50 pages)
+Memory usage	< 1 GB
+Parallel processing	✅
+
+📌 Use Cases
+Document structure extraction
+
+PDF preprocessing for search / indexing
+
+Legal & government document analysis
+
+Offline document intelligence pipelines
+
+Evaluation of heading detection algorithms
+
 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-🙏 Acknowledgments
-Transformers by Hugging Face for NLP models
-
-PyMuPDF for PDF processing
-
-NLTK for natural language tools
-
-scikit-learn for machine learning utilities
-
-
-
-
-
-
-
-
-
-
-                           
+This project is licensed under the MIT License.
