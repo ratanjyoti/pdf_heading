@@ -40,8 +40,6 @@ The system also supports **accuracy evaluation** against manually annotated grou
 
 ---
 
-## 📁 Project Structure
-
 pdf-heading-extractor/
 │
 ├── input/ # Input PDF files
@@ -113,6 +111,8 @@ This makes the system **explainable, stable, and fast**.
     }
   ]
 }
+```
+
 📊 Evaluation Metrics
 Predicted headings are matched with ground truth using:
 
@@ -157,10 +157,10 @@ Then open:
 arduino
 Copy code
 http://localhost:8080
+
 ▶️ How to Run
-bash
-Copy code
 python main.py
+
 The script will:
 
 Clear previous output
@@ -197,3 +197,4 @@ Evaluation of heading detection algorithms
 
 📄 License
 This project is licensed under the MIT License.
+
