@@ -131,10 +131,9 @@ F1-Score
 
 Saved to:
 
-bash
-Copy code
 output/accuracy_report.json
-🌐 HTML Reports
+
+##🌐 HTML Reports
 HTML reports are generated only when valid ground truth exists.
 
 They display:
@@ -144,18 +143,15 @@ They display:
 🔵 Ground truth headings
 
 Open directly:
-bash
-Copy code
 output/html_report/sample.html
+
 Or run as a local website:
 bash
 Copy code
 cd output/html_report
 python -m http.server 8080
-Then open:
 
-arduino
-Copy code
+Then open:
 http://localhost:8080
 
 ▶️ How to Run
