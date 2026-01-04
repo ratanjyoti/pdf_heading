@@ -1,60 +1,211 @@
-Document Relevance Processor
+Document Relevance Processor with PDF Heading Extraction
+📋 Overview
+The Document Relevance Processor is an advanced NLP-powered tool designed to intelligently rank and summarize document sections based on their relevance to user queries. This enhanced version includes robust PDF heading extraction capabilities, preserving document structure while performing semantic relevance analysis.
 
-Overview
+✨ Key Features
+🔍 Smart PDF Parsing: Extract headings, subheadings, and document hierarchy from PDF files
 
-The Document Relevance Processor is a Python-based tool designed to rank and summarize document sections based on their relevance to a user query. It leverages natural language processing (NLP) techniques, including T5 for summarization, BM25 for ranking, and TF-IDF for term extraction, to filter out irrelevant content and prioritize sections matching the query. The tool supports persona-based filtering (e.g., "Health_Conscious") and is ideal for tasks like generating vegetarian menu suggestions from document sets. It processes document chunks, applies relevance scoring, and outputs structured results in JSON format.
+🎯 Relevance Scoring: Combine BM25, TF-IDF, and semantic embeddings for accurate ranking
+
+👥 Persona-Based Filtering: Tailor results for specific user profiles (e.g., "Health_Conscious", "Chef")
+
+📝 Intelligent Summarization: Generate concise summaries using T5 transformer models
+
+🔄 Structured Output: JSON-formatted results with preserved document hierarchy
+
+🐳 Containerized Deployment: Full Docker support for easy deployment
+
+📁 Project Structure
+document-relevance-processor/
+├── data/
+│   ├── labeled_training/          # Training datasets
+│   ├── models/                    # Pretrained models
+│   ├── predictions/               # Prediction outputs
+│   └── sample_dataset/           # Sample data for testing
+├── utils/                         # Utility functions
+├── .dockerignore                 # Docker ignore rules
+├── Dockerfile                    # Container configuration
+├── README.md                     # This file
+├── Readme_1a.md                 # Detailed technical documentation
+├── main.py                       # Main application entry point
+├── predict.py                    # Prediction script
+├── process_all_pdfs.py          # Batch PDF processing
+├── requirements.txt             # Python dependencies
+└── upgrade_data.py              # Data upgrade utilities
+
+🚀 Quick Start
 Prerequisites
+Docker (recommended) or Python 3.9+
 
-Docker: Ensure Docker is installed to run the application in a containerized environment.
-Input Files: Provide config.json, irrelevant_terms.json, relevant_terms.json, and a synonyms.py module for synonym generation.
-Document Chunks: Supply document chunks in a compatible format (e.g., JSON with text and metadata).
+4GB RAM minimum (8GB recommended for large documents)
 
-Setup Instructions
+Git for cloning the repository
 
-Clone the Repository:git clone <repository-url>
+Installation
+Option 1: Docker (Recommended)
+# Clone the repository
+git clone <repository-url>
 cd document-relevance-processor
 
+# Build the Docker image
+docker build -t doc-relevance-processor .
 
-Prepare Input Files:
-Place config.json, irrelevant_terms.json, relevant_terms.json, and synonyms.py in the project directory.
-Ensure synonyms.py implements a get_synonyms function compatible with NLTK WordNet.
+# Run the container
+docker run -v $(pwd)/data:/app/data -it doc-relevance-processor
+
+Option 2: Local Installation
+# Clone and setup
+git clone <repository-url>
+cd document-relevance-processor
+
+# Create virtual environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Download NLTK data
+python -c "import nltk; nltk.download('punkt'); nltk.download('wordnet'); nltk.download('stopwords')"
+
+📖 Usage Examples
+Basic PDF Processing# Process a single PDF with heading extraction
+python main.py --input "documents/menu.pdf" \
+               --query "vegetarian options" \
+               --persona "Health_Conscious"
+
+Batch Processing
+# Process multiple PDFs
+python process_all_pdfs.py --input-dir "documents/" \
+                           --output-dir "results/" \
+                           --query "extract dessert recipes"
+
+Advanced Options
+# With custom configuration
+python main.py \
+  --input "document.pdf" \
+  --query "gluten-free alternatives" \
+  --persona "Dietary_Restricted" \
+  --extract-headings true \
+  --hierarchy-depth 3 \
+  --min-relevance 0.5 \
+  --output-format "structured" \
+  --save-headings "document_structure.json"
+
+🛠️ Configuration
+
+Key Configuration Files
+config.json - Main configuration
+
+relevant_terms.json - Priority terms for scoring
+
+irrelevant_terms.json - Terms to filter out
+
+synonyms.py - Synonym generation module
+
+PDF Extraction Settings
+Configure in config.json:
+
+{
+  "pdf_processing": {
+    "heading_detection": {
+      "font_size_threshold": 1.2,
+      "bold_weight": 0.8,
+      "min_length": 2,
+      "max_length": 100
+    },
+    "chunking": {
+      "max_chunk_size": 1000,
+      "overlap": 100,
+      "preserve_headings": true
+    }
+  }
+}
+
+📊 Output Format
+The tool generates structured JSON output:
+{
+  "metadata": {
+    "document": "menu.pdf",
+    "query": "vegetarian options",
+    "persona": "Health_Conscious",
+    "processing_time": "2.34s"
+  },
+  "headings_hierarchy": [
+    {
+      "heading": "Main Menu",
+      "level": 1,
+      "relevance_score": 0.95,
+      "sections": [...]
+    }
+  ],
+  "ranked_sections": [
+   {
+      "section_id": "sec_001",
+      "content": "Vegetarian pasta with fresh vegetables...",
+      "summary": "Fresh vegetable pasta dish",
+      "relevance_score": 0.92,
+      "source_heading": "Vegetarian Options",
+      "source_page": 5
+    }
+  ],
+  "processing_stats": {
+    "total_sections": 45,
+    "relevant_sections": 12,
+    "average_relevance": 0.78
+  }
+}
+
+📈 Performance Tips
+For large documents: Enable batch processing in config
+
+For better accuracy: Adjust relevance thresholds based on your use case
+
+For speed: Use smaller models or enable caching
+
+For memory: Process documents in smaller batches
+
+🤝 Contributing
+Fork the repository
+
+Create a feature branch: git checkout -b feature-name
+
+Commit changes: git commit -m 'Add feature'
+
+Push to branch: git push origin feature-name
+
+Open a Pull Request
+
+Development Setup
+# Install development dependencies
+pip install -r requirements-dev.txt
+
+# Run tests
+python -m pytest
+
+# Format code
+black .
+
+.
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+🙏 Acknowledgments
+Transformers by Hugging Face for NLP models
+
+PyMuPDF for PDF processing
+
+NLTK for natural language tools
+
+scikit-learn for machine learning utilities
 
 
-Create requirements.txt:transformers==4.31.0
-sentencepiece==0.1.99
-torch==2.0.1
-numpy==1.24.3
-scikit-learn==1.3.0
-nltk==3.8.1
-rank-bm25==0.2.2
-sentence-transformers==2.2.2
-
-
-Build the Docker Image:docker build -t doc-relevance-processor .
-
-
-Run the Docker Container:docker run -v $(pwd):/app -it doc-relevance-processor
 
 
 
-Usage
-
-Run the Script:Execute main.py (or modify result_generator.py to accept command-line arguments) with a query and persona:python main.py "Prepare a vegetarian buffet-style dinner menu" "Health_Conscious"
-
-
-Output:
-result.json: Contains ranked sections, summarized subsections, and processing stats.
-chunk_scores_output.txt: Logs chunk scores, penalties, and term lists.
-
-
-Customization:
-Edit irrelevant_terms.json and relevant_terms.json to adjust filtering terms.
-Modify config.json to update activity keywords.
 
 
 
-Notes
 
-Ensure sufficient memory for NLP models (T5 and bi-encoder).
-If synonyms.py is missing, implement a basic version using NLTK WordNet.
-For issues, check logs in output/error_log.json.
+
+                           
