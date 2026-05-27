@@ -1,9 +1,5 @@
 # 📄 PDF Heading Extraction & Evaluation System
 
-A fast, offline, CPU-only system to extract structured headings (Title, H1, H2, H3) from PDF documents using layout-aware heuristics — with optional ground-truth evaluation and HTML visualization.
-
----
-
 ## 🚀 Overview
 
 This project automatically analyzes PDF documents and reconstructs their logical structure by detecting headings based on **font size**, **styling**, **page position**, and **layout frequency**.
